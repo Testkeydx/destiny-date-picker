@@ -1,8 +1,6 @@
-"use client";
-
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Calendar, Filter, Moon, Zap, Share2, Eye, ArrowLeft } from "lucide-react";
+import { Calendar, Filter, Moon, Zap, Share2, Eye, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
@@ -41,6 +39,7 @@ export default function Results() {
     suitabilityFilter: "All" as "All" | "High" | "Medium–High" | "Medium",
     showCoachTips: true,
   });
+  const [isFiltersExpanded, setIsFiltersExpanded] = useState(false);
 
   useEffect(() => {
     const userData = localStorage.getItem("mcatStarData");
@@ -200,20 +199,11 @@ export default function Results() {
     <div className="min-h-screen bg-gradient-hero">
       {/* Header */}
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div className="flex items-center space-x-4">
-          <Button 
-            variant="ghost" 
-            size="sm"
-            onClick={() => navigate("/onboarding")}
-            className="text-foreground-secondary hover:text-upangea-blue"
-          >
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            Back
-          </Button>
-          <div className="flex items-center space-x-2">
-              <img src="/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
-            <span className="font-semibold text-foreground">MCAT Star</span>
-          </div>
+        <div className="flex items-center space-x-2">
+          <a href="https://upangea.com" target="_blank" rel="noopener noreferrer">
+            <img src="/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
+          </a>
+          <span className="font-semibold text-foreground">MCAT Star</span>
         </div>
         
         <div className="flex items-center space-x-4">
@@ -338,7 +328,126 @@ export default function Results() {
             className="mb-8"
           >
             <GradientFrame variant="glass" padding="md">
-              <div className="flex flex-wrap items-center gap-4">
+              {/* Mobile Filter Toggle Button */}
+              <div className="md:hidden">
+                <button
+                  onClick={() => setIsFiltersExpanded(!isFiltersExpanded)}
+                  className="w-full flex items-center justify-between py-2 text-left"
+                >
+                  <div className="flex items-center space-x-2">
+                    <Filter className="h-4 w-4 text-upangea-blue" />
+                    <span className="font-medium text-foreground">
+                      Filters
+                      {(() => {
+                        const activeCount = [
+                          filters.avoidMercuryRx,
+                          filters.preferWeekends,
+                          !filters.showCoachTips,
+                          filters.suitabilityFilter !== "All"
+                        ].filter(Boolean).length;
+                        return activeCount > 0 ? ` (${activeCount})` : '';
+                      })()}
+                    </span>
+                  </div>
+                  {isFiltersExpanded ? (
+                    <ChevronUp className="h-4 w-4 text-foreground-secondary" />
+                  ) : (
+                    <ChevronDown className="h-4 w-4 text-foreground-secondary" />
+                  )}
+                </button>
+                
+                {/* Mobile Filter Content */}
+                <motion.div
+                  initial={false}
+                  animate={{ 
+                    height: isFiltersExpanded ? "auto" : 0,
+                    opacity: isFiltersExpanded ? 1 : 0 
+                  }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className="overflow-hidden"
+                >
+                  <div className="pt-4 space-y-4">
+                    {/* Toggle Filters */}
+                    <div className="space-y-2">
+                      <button
+                        className={`w-full px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                          filters.avoidMercuryRx 
+                            ? 'bg-red-500 text-white shadow-sm' 
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                        onClick={() => setFilters(prev => ({ ...prev, avoidMercuryRx: !prev.avoidMercuryRx }))}
+                      >
+                        🔁 {filters.avoidMercuryRx ? 'Hiding' : 'Hide'} Mercury Rx
+                      </button>
+                      
+                      <button
+                        className={`w-full px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                          filters.preferWeekends 
+                            ? 'bg-blue-500 text-white shadow-sm' 
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                        onClick={() => setFilters(prev => ({ ...prev, preferWeekends: !prev.preferWeekends }))}
+                      >
+                        📅 {filters.preferWeekends ? 'Weekends Only' : 'Weekend Filter'}
+                      </button>
+                      
+                      <button
+                        className={`w-full px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                          filters.showCoachTips 
+                            ? 'bg-green-500 text-white shadow-sm' 
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                        onClick={() => setFilters(prev => ({ ...prev, showCoachTips: !prev.showCoachTips }))}
+                      >
+                        💡 {filters.showCoachTips ? 'Tips On' : 'Tips Off'}
+                      </button>
+                    </div>
+                    
+                    {/* Suitability Filter */}
+                    <div>
+                      <span className="text-sm text-foreground-secondary mb-2 block">Quality:</span>
+                      <div className="grid grid-cols-2 gap-2">
+                        {[
+                          { label: "All", icon: "🌟" },
+                          { label: "High", icon: "⭐" },
+                          { label: "Medium–High", icon: "✨" },
+                          { label: "Medium", icon: "📋" }
+                        ].map(({ label, icon }) => (
+                          <button
+                            key={label}
+                            className={`px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                              filters.suitabilityFilter === label
+                                ? 'bg-purple-500 text-white shadow-sm'
+                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                            }`}
+                            onClick={() => setFilters(prev => ({ ...prev, suitabilityFilter: label as any }))}
+                          >
+                            {icon} {label}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                    
+                    {/* Clear All */}
+                    {(() => {
+                      const hasActiveFilters = filters.avoidMercuryRx || filters.preferWeekends || !filters.showCoachTips || filters.suitabilityFilter !== "All";
+                      return hasActiveFilters ? (
+                        <Button 
+                          variant="ghost" 
+                          size="sm"
+                          onClick={() => setFilters({ avoidMercuryRx: false, preferWeekends: false, suitabilityFilter: "All", showCoachTips: true })}
+                          className="w-full text-red-600 hover:text-red-700 hover:bg-red-50"
+                        >
+                          Clear All Filters
+                        </Button>
+                      ) : null;
+                    })()}
+                  </div>
+                </motion.div>
+              </div>
+
+              {/* Desktop Filter Layout */}
+              <div className="hidden md:flex flex-wrap items-center gap-4">
                 <div className="flex items-center space-x-2">
                   <Filter className="h-4 w-4 text-upangea-blue" />
                   <span className="font-medium text-foreground">Filters:</span>
