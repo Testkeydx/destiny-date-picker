@@ -34,8 +34,8 @@ export default function Onboarding() {
     country: "",
     energyPreference: 50,
     riskTolerance: 50,
-    preferredTestStart: undefined,
-    preferredTestEnd: undefined,
+    preferredTestStart: new Date(2026, 0, 1), // January 1, 2026
+    preferredTestEnd: new Date(2026, 0, 31),  // January 31, 2026
     timezone: "America/New_York",
   });
 
