@@ -7,34 +7,35 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { DatePicker } from "@/components/ui/date-picker";
 import { Slider } from "@/components/ui/slider";
 import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { useNavigate } from "react-router-dom";
 
 interface OnboardingData {
-  birthDate: string;
+  birthDate: Date | undefined;
   birthTime: string;
   city: string;
   country: string;
   energyPreference: number;
   riskTolerance: number;
-  scoreReleaseStart: string;
-  scoreReleaseEnd: string;
+  scoreReleaseStart: Date | undefined;
+  scoreReleaseEnd: Date | undefined;
   timezone: string;
 }
 
 export default function Onboarding() {
   const navigate = useNavigate();
   const [data, setData] = useState<OnboardingData>({
-    birthDate: "",
+    birthDate: undefined,
     birthTime: "",
     city: "",
     country: "",
     energyPreference: 50,
     riskTolerance: 50,
-    scoreReleaseStart: "",
-    scoreReleaseEnd: "",
+    scoreReleaseStart: undefined,
+    scoreReleaseEnd: undefined,
     timezone: "America/New_York",
   });
 
@@ -92,14 +93,13 @@ export default function Onboarding() {
                   <div className="space-y-6">
                     <div>
                       <Label htmlFor="birthDate" className="text-foreground-secondary">Birth Date *</Label>
-                      <Input
-                        id="birthDate"
-                        type="date"
-                        value={data.birthDate}
-                        onChange={(e) => updateData("birthDate", e.target.value)}
-                        required
-                        className="mt-2"
-                      />
+                      <div className="mt-2">
+                        <DatePicker
+                          date={data.birthDate}
+                          onSelect={(date) => updateData("birthDate", date)}
+                          placeholder="Select your birth date"
+                        />
+                      </div>
                     </div>
 
                     <div>
@@ -211,26 +211,26 @@ export default function Onboarding() {
                       We'll favor test dates whose score releases land inside this range.
                     </p>
                     
-                    <div className="grid grid-cols-2 gap-4">
+                     <div className="grid grid-cols-2 gap-4">
                       <div>
                         <Label htmlFor="releaseStart" className="text-foreground-secondary">Start Date</Label>
-                        <Input
-                          id="releaseStart"
-                          type="date"
-                          value={data.scoreReleaseStart}
-                          onChange={(e) => updateData("scoreReleaseStart", e.target.value)}
-                          className="mt-2"
-                        />
+                        <div className="mt-2">
+                          <DatePicker
+                            date={data.scoreReleaseStart}
+                            onSelect={(date) => updateData("scoreReleaseStart", date)}
+                            placeholder="Start date"
+                          />
+                        </div>
                       </div>
                       <div>
                         <Label htmlFor="releaseEnd" className="text-foreground-secondary">End Date</Label>
-                        <Input
-                          id="releaseEnd"
-                          type="date"
-                          value={data.scoreReleaseEnd}
-                          onChange={(e) => updateData("scoreReleaseEnd", e.target.value)}
-                          className="mt-2"
-                        />
+                        <div className="mt-2">
+                          <DatePicker
+                            date={data.scoreReleaseEnd}
+                            onSelect={(date) => updateData("scoreReleaseEnd", date)}
+                            placeholder="End date"
+                          />
+                        </div>
                       </div>
                     </div>
 
