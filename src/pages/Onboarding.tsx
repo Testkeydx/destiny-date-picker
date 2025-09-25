@@ -53,10 +53,10 @@ export default function Onboarding() {
   return (
     <div className="min-h-screen bg-gradient-hero">
       {/* Header */}
-      <header className="container mx-auto px-4 py-6 flex justify-between items-center">
+      <header className="container mx-auto px-4 py-4 md:py-6 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Globe className="h-6 w-6 text-upangea-blue" />
-          <span className="font-semibold text-foreground">MCAT Astro</span>
+          <Globe className="h-5 w-5 md:h-6 md:w-6 text-upangea-blue" />
+          <span className="font-semibold text-sm md:text-base text-foreground">MCAT Astro</span>
         </div>
         <BrandBadge size="sm" variant="glass" />
       </header>

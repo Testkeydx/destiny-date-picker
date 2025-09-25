@@ -137,5 +137,44 @@ All colors MUST be HSL. Inspired by mystical meets medical school planning.
 
   body {
     @apply bg-background text-foreground;
+    /* Mobile optimizations */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Mobile-first responsive improvements */
+  @media (max-width: 768px) {
+    .container {
+      @apply px-4;
+    }
+
+    /* Ensure proper touch targets on mobile */
+    button, .button, [role="button"] {
+      min-height: 44px;
+      min-width: 44px;
+    }
+
+    /* Improve form input experience */
+    input, select, textarea {
+      font-size: 16px; /* Prevents zoom on iOS */
+    }
+
+    /* Better mobile spacing */
+    .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+    }
+  }
+
+  /* Improve touch interactions */
+  @media (hover: none) and (pointer: coarse) {
+    .hover\\:scale-105:hover {
+      transform: none;
+    }
+    
+    .hover\\:scale-105:active {
+      transform: scale(1.02);
+    }
   }
 }
