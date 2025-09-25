@@ -11,8 +11,12 @@ import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { useNavigate } from "react-router-dom";
 import { YearSelector } from "@/components/YearSelector";
+import { UniversityCombobox } from "@/components/UniversityCombobox";
+import { supabase } from "@/lib/supabase";
 
 interface OnboardingData {
+  name: string;
+  university: string;
   birthDate: Date | undefined;
   birthTime: string;
   city: string;
@@ -28,6 +32,8 @@ interface OnboardingData {
 export default function Onboarding() {
   const navigate = useNavigate();
   const [data, setData] = useState<OnboardingData>({
+    name: "",
+    university: "",
     birthDate: undefined,
     birthTime: "",
     city: "",
@@ -40,11 +46,42 @@ export default function Onboarding() {
     selectedYear: "2026",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Store data in localStorage for mock functionality
-    localStorage.setItem("mcatStarData", JSON.stringify(data));
-    navigate("/results");
+    
+    try {
+      // Save name and university to Supabase
+      const insertData = {
+        full_name: data.name,
+        university: data.university,
+        email: null // Allow null email until schema is updated
+      };
+      
+      console.log('Attempting to insert:', insertData);
+      
+      const { error } = await supabase
+        .from('email_subscribers')
+        .insert([insertData]);
+
+      if (error) {
+        console.error('Error saving to Supabase:', error);
+        console.error('Error details:', {
+          message: error.message,
+          details: error.details,
+          hint: error.hint,
+          code: error.code
+        });
+        alert(`Error saving data: ${error.message}. Please try again.`);
+        return;
+      }
+
+      // Store full data in localStorage for mock functionality
+      localStorage.setItem("mcatStarData", JSON.stringify(data));
+      navigate("/results");
+    } catch (error) {
+      console.error('Unexpected error:', error);
+      alert('Error saving data. Please try again.');
+    }
   };
 
   const updateData = (field: keyof OnboardingData, value: any) => {
@@ -82,7 +119,7 @@ export default function Onboarding() {
 
           <form onSubmit={handleSubmit}>
             <div className="grid lg:grid-cols-2 gap-8">
-              {/* Left Column - Birth Info */}
+              {/* Left Column - Personal Info */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -91,10 +128,34 @@ export default function Onboarding() {
                 <GradientFrame variant="surface" padding="lg">
                   <div className="flex items-center space-x-2 mb-6">
                     <Calendar className="h-5 w-5 text-upangea-blue" />
-                    <h2 className="text-xl font-semibold text-foreground">Birth Information</h2>
+                    <h2 className="text-xl font-semibold text-foreground">Personal Information</h2>
                   </div>
 
                   <div className="space-y-6">
+                    <div>
+                      <Label htmlFor="name" className="text-foreground-secondary">Full Name *</Label>
+                      <Input
+                        id="name"
+                        type="text"
+                        value={data.name}
+                        onChange={(e) => updateData("name", e.target.value)}
+                        className="mt-2"
+                        placeholder="Enter your full name"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <Label htmlFor="university" className="text-foreground-secondary">University/College</Label>
+                      <div className="mt-2">
+                        <UniversityCombobox
+                          value={data.university}
+                          onChange={(value) => updateData("university", value)}
+                          placeholder="Search universities..."
+                        />
+                      </div>
+                    </div>
+
                     <div>
                       <Label htmlFor="birthDate" className="text-foreground-secondary">Birth Date *</Label>
                       <div className="mt-2">
@@ -279,7 +340,7 @@ export default function Onboarding() {
                 <Button
                   type="submit"
                   size="lg"
-                  disabled={!data.birthDate || !data.city || !data.country}
+                  disabled={!data.name || !data.birthDate || !data.city || !data.country}
                   className="bg-gradient-primary hover:opacity-90 text-white px-8 py-3 rounded-2xl shadow-glow transition-all duration-200 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed w-full"
                 >
                   See My Best Dates
