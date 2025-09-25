@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { Globe, Home } from "lucide-react";
+import upangeaLogo from "@/assets/upangea-logo.png";
 
 const NotFound = () => {
   const location = useLocation();
@@ -18,8 +19,10 @@ const NotFound = () => {
         {/* Header */}
         <div className="flex justify-center mb-8">
           <div className="flex items-center space-x-2">
-            <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
-            <span className="font-semibold text-foreground">MCAT Star</span>
+            <a href="https://upangea.com" target="_blank" rel="noopener noreferrer">
+              <img src={upangeaLogo} alt="UPangea Logo" className="h-6 w-6" />
+            </a>
+            <span className="text-lg font-semibold text-gray-800">UPangea</span>
           </div>
         </div>
 

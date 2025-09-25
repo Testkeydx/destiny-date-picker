@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Sliders, Target, ArrowRight, Globe } from "lucide-react";
@@ -13,6 +11,7 @@ import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { useNavigate } from "react-router-dom";
 import { YearSelector } from "@/components/YearSelector";
+import upangeaLogo from "@/assets/upangea-logo.png";
 
 interface OnboardingData {
   birthDate: Date | undefined;
@@ -61,7 +60,7 @@ export default function Onboarding() {
           onClick={() => navigate("/")}
           className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
         >
-          <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-5 w-5 md:h-6 md:w-6" />
+          <img src={upangeaLogo} alt="UPangea Logo" className="h-5 w-5 md:h-6 md:w-6" />
           <span className="font-semibold text-sm md:text-base text-foreground">MCAT Star</span>
         </button>
         <BrandBadge size="sm" variant="glass" />

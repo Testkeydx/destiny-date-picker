@@ -26,6 +26,7 @@ import { hasRx, suitabilityBucket, getMercuryState } from "@/selectors/mergedSel
 import { truncateText } from "@/utils/textUtils";
 import { ProcessedDate, UserPreferences, MergedDate, YearView } from "@/types";
 import { calculatePersonalizedFactors, generatePersonalizedRecommendation } from "@/utils/natalCalculator";
+import upangeaLogo from "@/assets/upangea-logo.png";
 
 export default function Results() {
   const navigate = useNavigate();
@@ -211,7 +212,7 @@ export default function Results() {
             Back
           </Button>
           <div className="flex items-center space-x-2">
-            <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
+            <img src={upangeaLogo} alt="UPangea Logo" className="h-6 w-6" />
             <span className="font-semibold text-foreground">MCAT Star</span>
           </div>
         </div>
