@@ -33,8 +33,8 @@ export default function Landing() {
       {/* Header */}
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Globe className="h-6 w-6 text-upangea-blue" />
-          <span className="font-semibold text-foreground">MCAT Astro</span>
+          <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
+          <span className="font-semibold text-foreground">MCAT Star</span>
         </div>
         <BrandBadge size="sm" variant="glass" />
       </header>
@@ -48,8 +48,7 @@ export default function Landing() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Find Your MCAT Destiny Date{" "}
-              <span className="inline-block">✨</span>
+              Find Your MCAT Star Date ✨
             </h1>
             <p className="text-xl text-foreground-secondary mb-12 max-w-2xl mx-auto leading-relaxed">
               Astrology + practical scheduling to pick your best test day.

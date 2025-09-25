@@ -18,8 +18,8 @@ const NotFound = () => {
         {/* Header */}
         <div className="flex justify-center mb-8">
           <div className="flex items-center space-x-2">
-            <Globe className="h-6 w-6 text-upangea-blue" />
-            <span className="font-semibold text-foreground">MCAT Astro</span>
+            <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
+            <span className="font-semibold text-foreground">MCAT Star</span>
           </div>
         </div>
 

@@ -42,7 +42,7 @@ export default function Onboarding() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Store data in localStorage for mock functionality
-    localStorage.setItem("mcatAstroData", JSON.stringify(data));
+    localStorage.setItem("mcatStarData", JSON.stringify(data));
     navigate("/results");
   };
 
@@ -55,8 +55,8 @@ export default function Onboarding() {
       {/* Header */}
       <header className="container mx-auto px-4 py-4 md:py-6 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Globe className="h-5 w-5 md:h-6 md:w-6 text-upangea-blue" />
-          <span className="font-semibold text-sm md:text-base text-foreground">MCAT Astro</span>
+          <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-5 w-5 md:h-6 md:w-6" />
+          <span className="font-semibold text-sm md:text-base text-foreground">MCAT Star</span>
         </div>
         <BrandBadge size="sm" variant="glass" />
       </header>
