@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Calendar, Filter, Moon, Zap, Share2, Eye, ChevronDown, ChevronUp } from "lucide-react";
+import { Calendar, Filter, Moon, Zap, Bell, Eye, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
@@ -8,7 +8,7 @@ import { ProgressRing } from "@/components/ui/progress-ring";
 import { ScoreChip } from "@/components/ui/score-chip";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { ShareModal } from "@/components/ShareModal";
+import { RemindMeModal } from "@/components/RemindMeModal";
 import { useNavigate } from "react-router-dom";
 import { YearSelector } from "@/components/YearSelector";
 import { 
@@ -29,8 +29,8 @@ export default function Results() {
   const navigate = useNavigate();
   const [yearView, setYearView] = useState<YearView | null>(null);
   const [selectedDate, setSelectedDate] = useState<MergedDate | null>(null);
-  const [shareDate, setShareDate] = useState<MergedDate | null>(null);
-  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [remindMeDate, setRemindMeDate] = useState<MergedDate | null>(null);
+  const [isRemindMeModalOpen, setIsRemindMeModalOpen] = useState(false);
   const [selectedYear, setSelectedYear] = useState<string>("");
   const [userPreferences, setUserPreferences] = useState<UserPreferences>({});
   const [filters, setFilters] = useState({
@@ -996,12 +996,12 @@ export default function Results() {
                           size="sm" 
                           className="bg-gradient-accent hover:opacity-90"
                           onClick={() => {
-                            setShareDate(date);
-                            setIsShareModalOpen(true);
+                            setRemindMeDate(date);
+                            setIsRemindMeModalOpen(true);
                           }}
                         >
-                          <Share2 className="h-4 w-4 mr-2" />
-                          Share
+                          <Bell className="h-4 w-4 mr-2" />
+                          Remind Me
                         </Button>
                       </div>
                     </div>
@@ -1058,11 +1058,11 @@ export default function Results() {
         </motion.div>
       </main>
 
-      {/* Share Modal */}
-      <ShareModal
-        isOpen={isShareModalOpen}
-        onClose={() => setIsShareModalOpen(false)}
-        date={shareDate}
+      {/* Remind Me Modal */}
+      <RemindMeModal
+        isOpen={isRemindMeModalOpen}
+        onClose={() => setIsRemindMeModalOpen(false)}
+        date={remindMeDate}
       />
     </div>
   );
