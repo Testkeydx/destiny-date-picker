@@ -2,10 +2,10 @@
 
 import * as React from "react"
 import { format } from "date-fns"
-import { CalendarIcon, ChevronLeft, ChevronRight } from "lucide-react"
-import { DayPicker } from "react-day-picker"
+import { CalendarIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
@@ -25,22 +25,13 @@ export function DatePicker({
   className,
 }: DatePickerProps) {
   const [open, setOpen] = React.useState(false)
-  const [month, setMonth] = React.useState<Date>(date || new Date(2000, 0)) // Default to year 2000 for birth dates
+  const [month, setMonth] = React.useState<Date>(date || new Date(2000, 0)) // Default to year 2000
   
   const currentYear = new Date().getFullYear()
   const years = Array.from({ length: currentYear - 1950 + 1 }, (_, i) => 1950 + i).reverse()
-  const months = [
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-  ]
 
   const handleYearChange = (year: string) => {
     const newDate = new Date(parseInt(year), month.getMonth())
-    setMonth(newDate)
-  }
-
-  const handleMonthChange = (monthIndex: string) => {
-    const newDate = new Date(month.getFullYear(), parseInt(monthIndex))
     setMonth(newDate)
   }
 
@@ -60,26 +51,15 @@ export function DatePicker({
           {date ? format(date, "PPP") : <span>{placeholder}</span>}
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-auto p-0" align="start">
-        <div className="p-3 border-b">
-          <div className="flex gap-2">
-            <Select value={month.getMonth().toString()} onValueChange={handleMonthChange}>
-              <SelectTrigger className="flex-1">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                {months.map((monthName, index) => (
-                  <SelectItem key={index} value={index.toString()}>
-                    {monthName}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+      <PopoverContent className="w-auto p-0 bg-surface z-50" align="start">
+        <div className="p-3 border-b bg-surface">
+          <div className="flex items-center justify-center gap-2">
+            <span className="text-sm text-foreground-secondary">Year:</span>
             <Select value={month.getFullYear().toString()} onValueChange={handleYearChange}>
-              <SelectTrigger className="flex-1">
+              <SelectTrigger className="w-24 h-8">
                 <SelectValue />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="bg-surface z-[60]">
                 {years.map((year) => (
                   <SelectItem key={year} value={year.toString()}>
                     {year}
@@ -89,7 +69,7 @@ export function DatePicker({
             </Select>
           </div>
         </div>
-        <DayPicker
+        <Calendar
           mode="single"
           selected={date}
           onSelect={(selectedDate) => {
@@ -101,11 +81,7 @@ export function DatePicker({
           disabled={(date) =>
             date > new Date() || date < new Date("1950-01-01")
           }
-          className={cn("p-3 pointer-events-auto")}
-          components={{
-            IconLeft: ({ ...props }) => <ChevronLeft className="h-4 w-4" />,
-            IconRight: ({ ...props }) => <ChevronRight className="h-4 w-4" />,
-          }}
+          className="p-3 pointer-events-auto"
         />
       </PopoverContent>
     </Popover>
