@@ -14,34 +14,75 @@ export default {
     },
     extend: {
       colors: {
+        // Core system colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: {
+          DEFAULT: "hsl(var(--background))",
+          secondary: "hsl(var(--background-secondary))",
+        },
+        foreground: {
+          DEFAULT: "hsl(var(--foreground))",
+          secondary: "hsl(var(--foreground-secondary))",
+          muted: "hsl(var(--foreground-muted))",
+        },
+        surface: {
+          DEFAULT: "hsl(var(--surface))",
+          glass: "hsl(var(--surface-glass))",
+        },
+        
+        // UPangea Brand Colors
+        upangea: {
+          blue: "hsl(var(--upangea-blue))",
+          green: "hsl(var(--upangea-green))",
+          "light-blue": "hsl(var(--upangea-light-blue))",
+          "light-green": "hsl(var(--upangea-light-green))",
+          forest: "hsl(var(--upangea-forest))",
+        },
+        
+        // Interactive colors
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          hover: "hsl(var(--secondary-hover))",
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        
+        // Status colors
+        positive: {
+          DEFAULT: "hsl(var(--positive))",
+          foreground: "hsl(var(--positive-foreground))",
+        },
+        neutral: {
+          DEFAULT: "hsl(var(--neutral))",
+          foreground: "hsl(var(--neutral-foreground))",
+        },
+        negative: {
+          DEFAULT: "hsl(var(--negative))",
+          foreground: "hsl(var(--negative-foreground))",
+        },
+        
+        // Legacy compatibility
+        destructive: {
+          DEFAULT: "hsl(var(--negative))",
+          foreground: "hsl(var(--negative-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--background-secondary))",
+          foreground: "hsl(var(--foreground-muted))",
+        },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "hsl(var(--surface))",
+          foreground: "hsl(var(--foreground))",
         },
         card: {
           DEFAULT: "hsl(var(--card))",
@@ -58,10 +99,36 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      
+      // Background gradients
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-surface": "var(--gradient-surface)",
+      },
+      
+      // Box shadows
+      boxShadow: {
+        sm: "var(--shadow-sm)",
+        md: "var(--shadow-md)",
+        lg: "var(--shadow-lg)",
+        glow: "var(--shadow-glow)",
+      },
+      
+      // Transition timing
+      transitionTimingFunction: {
+        smooth: "cubic-bezier(0.4, 0, 0.2, 1)",
+        bounce: "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+      },
+      
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        xl: "1rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
       },
       keyframes: {
         "accordion-down": {

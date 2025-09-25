@@ -2,39 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* UPangea MCAT Astro Date Picker Design System
+All colors MUST be HSL. Inspired by mystical meets medical school planning.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
+    /* UPangea Brand Colors */
+    --upangea-blue: 205 94% 54%;           /* #1F81F2 */
+    --upangea-green: 158 69% 46%;          /* #23C38E */
+    --upangea-light-blue: 196 100% 50%;    /* #00C2FF */
+    --upangea-light-green: 142 69% 58%;    /* #4ADE80 */
+    --upangea-forest: 158 78% 39%;         /* #10B981 */
+    
+    /* Background System */
+    --background: 210 40% 98%;             /* Soft off-white */
+    --background-secondary: 210 25% 96%;   /* Subtle gray */
+    --surface: 0 0% 100%;                  /* Pure white cards */
+    --surface-glass: 210 40% 98% / 0.7;    /* Glass morphism */
+    
+    /* Text System */
+    --foreground: 222.2 84% 5%;            /* Dark slate */
+    --foreground-secondary: 215.4 16.3% 47%; /* Medium gray */
+    --foreground-muted: 215.4 16.3% 65%;   /* Light gray */
+    
+    /* Interactive System */
+    --primary: 205 94% 54%;                /* UPangea Blue */
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 205 94% 48%;
+    
+    --secondary: 158 69% 46%;              /* UPangea Green */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 158 69% 40%;
+    
+    --accent: 196 100% 50%;                /* Light blue accent */
+    --accent-foreground: 0 0% 100%;
+    
+    /* Status Colors */
+    --positive: 142 69% 58%;               /* Success green */
+    --positive-foreground: 0 0% 100%;
+    --neutral: 215.4 16.3% 47%;            /* Neutral gray */
+    --neutral-foreground: 0 0% 100%;
+    --negative: 0 84.2% 60.2%;             /* Warning red */
+    --negative-foreground: 0 0% 100%;
+    
+    /* UI Elements */
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 205 94% 54%;                   /* Focus ring matches primary */
+    
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 5%;
+    --card-shadow: 215 25% 27% / 0.05;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(196 100% 96%), hsl(0 0% 100%), hsl(158 100% 95%));
+    --gradient-primary: linear-gradient(135deg, hsl(205 94% 54%), hsl(158 69% 46%));
+    --gradient-accent: linear-gradient(135deg, hsl(196 100% 50%), hsl(142 69% 58%));
+    --gradient-surface: linear-gradient(135deg, hsl(0 0% 100%), hsl(210 25% 98%));
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(var(--card-shadow));
+    --shadow-md: 0 4px 6px -1px hsl(var(--card-shadow)), 0 2px 4px -1px hsl(var(--card-shadow));
+    --shadow-lg: 0 10px 15px -3px hsl(var(--card-shadow)), 0 4px 6px -2px hsl(var(--card-shadow));
+    --shadow-glow: 0 0 20px hsl(205 94% 54% / 0.15);
+    
+    /* Animations */
+    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 

@@ -1,0 +1,50 @@
+[
+  {
+    "testDate": "2025-03-08",
+    "scoreReleaseDate": "2025-04-08"
+  },
+  {
+    "testDate": "2025-03-29",
+    "scoreReleaseDate": "2025-04-29"
+  },
+  {
+    "testDate": "2025-04-12",
+    "scoreReleaseDate": "2025-05-13"
+  },
+  {
+    "testDate": "2025-04-26",
+    "scoreReleaseDate": "2025-05-27"
+  },
+  {
+    "testDate": "2025-05-24",
+    "scoreReleaseDate": "2025-06-24"
+  },
+  {
+    "testDate": "2025-06-14",
+    "scoreReleaseDate": "2025-07-15"
+  },
+  {
+    "testDate": "2025-06-28",
+    "scoreReleaseDate": "2025-07-29"
+  },
+  {
+    "testDate": "2025-07-26",
+    "scoreReleaseDate": "2025-08-26"
+  },
+  {
+    "testDate": "2025-08-09",
+    "scoreReleaseDate": "2025-09-09"
+  },
+  {
+    "testDate": "2025-08-23",
+    "scoreReleaseDate": "2025-09-23"
+  },
+  {
+    "testDate": "2025-09-05",
+    "scoreReleaseDate": "2025-10-07"
+  },
+  {
+    "testDate": "2025-09-12",
+    "scoreReleaseDate": "2025-10-14"
+  }
+]
