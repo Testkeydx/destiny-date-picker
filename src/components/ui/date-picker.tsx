@@ -28,7 +28,7 @@ export function DatePicker({
   const [month, setMonth] = React.useState<Date>(date || new Date(2000, 0)) // Default to year 2000
   
   const currentYear = new Date().getFullYear()
-  const years = Array.from({ length: currentYear - 1950 + 1 }, (_, i) => 1950 + i).reverse()
+  const years = Array.from({ length: (currentYear + 5) - 1950 + 1 }, (_, i) => 1950 + i).reverse()
 
   const handleYearChange = (year: string) => {
     const newDate = new Date(parseInt(year), month.getMonth())
@@ -79,7 +79,7 @@ export function DatePicker({
           month={month}
           onMonthChange={setMonth}
           disabled={(date) =>
-            date > new Date() || date < new Date("1950-01-01")
+            date < new Date("1950-01-01")
           }
           className="p-3 pointer-events-auto"
         />
