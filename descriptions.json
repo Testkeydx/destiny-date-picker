@@ -1,0 +1,414 @@
+{
+    "meta": {
+      "version": "1.0",
+      "generated_for": "UPangea MCAT Astro Date Picker",
+      "note": "Short, user-facing summaries paired with practical advice. Keep strings verbatim and offline."
+    },
+    "descriptions": {
+      "2025": [
+        {
+          "date": "July 25, 2025",
+          "feel": "Bold, energized, a bit theatrical; mind is lively but prone to flashy first reads.",
+          "why": "Leo Sun/Moon boost confidence while Mercury retrograde in Leo increases misreads/logistics risk; Mars in Virgo steadies pacing.",
+          "advice": [
+            "Arrive early; double-check ID, route, and timing.",
+            "Underline claim vs. evidence before choosing.",
+            "Use a 10-second pause after each passage to slow snap judgments."
+          ]
+        },
+        {
+          "date": "August 1, 2025",
+          "feel": "Intense focus with a push to act; emotions run deep but productive.",
+          "why": "Scorpio First Quarter Moon adds drive; Mercury retrograde heightens instruction/tech pitfalls; Mars in Virgo supports precision.",
+          "advice": [
+            "Follow a printed checklist for logistics.",
+            "Annotate author’s argument structure line by line.",
+            "If stuck >90 seconds, mark and move—return later."
+          ]
+        },
+        {
+          "date": "August 16, 2025",
+          "feel": "Calm, steady, and methodical; low drama, high consistency.",
+          "why": "Taurus Moon favors endurance; Mercury now direct reduces friction; Last Quarter lowers raw energy but improves steadiness.",
+          "advice": [
+            "Front-load warm-up to raise activation.",
+            "Use predictable pacing blocks (e.g., 9/9/9 minutes).",
+            "Prioritize accuracy on the first pass; revisit only flagged items."
+          ]
+        },
+        {
+          "date": "August 22, 2025",
+          "feel": "Confident and expressive; motivation is high, risk of rushing.",
+          "why": "Late-Leo cluster boosts confidence and speed; Mars in Libra can hesitate on close calls.",
+          "advice": [
+            "Read stems twice before scanning options.",
+            "Set a one-change rule after review.",
+            "Keep pre-test social contact minimal to conserve focus."
+          ]
+        },
+        {
+          "date": "August 23, 2025",
+          "feel": "Fresh start energy with clean mental lines; vibe is organized, not hyped.",
+          "why": "New Moon reset with Virgo Sun for order; Mercury in Leo adds flair that can overweigh tone.",
+          "advice": [
+            "Do a structured 10-minute warm-up to boost arousal.",
+            "Bullet the author’s thesis and 2–3 supports per passage.",
+            "If an answer ‘sounds good,’ demand text proof."
+          ]
+        },
+        {
+          "date": "September 4, 2025",
+          "feel": "Practical and disciplined; attention to detail is strong.",
+          "why": "Mercury in Virgo + Capricorn Moon → crisp parsing and structure; Saturn retro can feel heavy/perfectionistic.",
+          "advice": [
+            "Cap each question at ~90 seconds.",
+            "Favor elimination language (“because X contradicts line…”) in notes.",
+            "Plan one short breathing reset per section."
+          ]
+        },
+        {
+          "date": "September 5, 2025",
+          "feel": "Clear and objective with good mechanical accuracy.",
+          "why": "Aquarius Moon supports perspective taking; Mercury in Virgo anchors precision.",
+          "advice": [
+            "Use timers to maintain urgency.",
+            "Summarize each paragraph in 5 words max.",
+            "If torn, choose the option with most textual support, not the cleverest."
+          ]
+        },
+        {
+          "date": "September 12, 2025",
+          "feel": "Grounded, precise, and calm; less flash, more reliability.",
+          "why": "Taurus Moon plus Mercury in Virgo favors careful comprehension; Mars in Libra smooths nerves.",
+          "advice": [
+            "Lock answers when ≥70% confident; avoid endless tinkering.",
+            "Protect sleep and breakfast routine.",
+            "Use elimination first, selection second."
+          ]
+        },
+        {
+          "date": "September 13, 2025",
+          "feel": "Quick, curious, agile; mind jumps fast between ideas.",
+          "why": "Gemini Moon boosts verbal agility; Mercury in Virgo keeps accuracy high.",
+          "advice": [
+            "Highlight claim/evidence keywords to prevent thread-hopping.",
+            "Channel speed into scanning, not answer changes.",
+            "Schedule brief eye-rest every two passages."
+          ]
+        }
+      ],
+      "2026": [
+        {
+          "date": "January 9, 2026",
+          "feel": "Serious, disciplined, and methodical.",
+          "why": "Capricorn stack emphasizes structure and stamina; Virgo Moon favors meticulous review.",
+          "advice": [
+            "Use a rigid pacing grid and stick to it.",
+            "Predefine when to guess/skip to avoid time debt.",
+            "Insert micro-breaks to prevent mental heaviness."
+          ]
+        },
+        {
+          "date": "January 10, 2026",
+          "feel": "Structured yet even-keeled; balanced decision-making.",
+          "why": "Capricorn focus with Libra Moon eases anxiety and supports fairness.",
+          "advice": [
+            "If split 50/50, decide within 20 seconds to avoid drift.",
+            "Mark one revisit max per passage.",
+            "Keep posture/breath steady to maintain rhythm."
+          ]
+        },
+        {
+          "date": "January 15, 2026",
+          "feel": "Methodical with a wider lens; can feel sticky at moments.",
+          "why": "Capricorn planning meets Sagittarius Moon big-picture; Saturn station can slow transitions.",
+          "advice": [
+            "Write a one-line thesis per passage.",
+            "If you feel ‘stuck,’ switch questions then return.",
+            "Guard detail loss by underlining key terms."
+          ]
+        },
+        {
+          "date": "January 23, 2026",
+          "feel": "Analytical with soft empathy; clear but not harsh.",
+          "why": "Aquarius planets aid abstraction; Pisces Moon boosts tone sensitivity.",
+          "advice": [
+            "Translate each paragraph into a neutral claim.",
+            "Use timers to avoid dreamy drift.",
+            "When two answers fit tone, pick the one with tighter evidence."
+          ]
+        },
+        {
+          "date": "February 13, 2026",
+          "feel": "Structured but stop-start; clarity improves after warm-up.",
+          "why": "Capricorn Moon grounds execution; Saturn station direct can feel choppy initially.",
+          "advice": [
+            "Do a 12-minute ramp-up set before exam.",
+            "Front-load easier items to build flow.",
+            "Keep notes compact—subject, verb, claim."
+          ]
+        },
+        {
+          "date": "March 7, 2026",
+          "feel": "Fluid and collaborative in your own head; good for inference.",
+          "why": "Pisces Mercury aids contextual reading; Libra Moon stabilizes reviews.",
+          "advice": [
+            "Anchor each inference to a line reference.",
+            "Write mini-summaries after each paragraph.",
+            "Use ‘prove it’ checks on feel-good choices."
+          ]
+        },
+        {
+          "date": "March 20, 2026",
+          "feel": "Decisive and competitive; energy is high.",
+          "why": "Aries Moon brings momentum near equinox edge.",
+          "advice": [
+            "Count to three before locking fast answers.",
+            "Fuel/hydrate to avoid late-section dips.",
+            "Mark and move when encountering sticky stems."
+          ]
+        },
+        {
+          "date": "April 10, 2026",
+          "feel": "Driven start with steady finishing power.",
+          "why": "Aries Sun/Mars give launch energy; Capricorn Moon anchors pacing.",
+          "advice": [
+            "Open with a medium-difficulty passage to harness momentum.",
+            "Check first sentences for thesis cues.",
+            "Plan one posture reset mid-section."
+          ]
+        },
+        {
+          "date": "April 11, 2026",
+          "feel": "Clear, objective, energetic.",
+          "why": "Aquarius Moon boosts detachment; Aries energy sustains pace.",
+          "advice": [
+            "If confidence outruns evidence, re-read the claim line.",
+            "Use a strict mark-and-move rule.",
+            "Keep transitions tight—no lingering."
+          ]
+        },
+        {
+          "date": "April 24, 2026",
+          "feel": "Steady builder with confident expression.",
+          "why": "Taurus Sun favors consistency; Leo Moon supplies presence; Mercury Aries can jump ahead.",
+          "advice": [
+            "Slow the first 3 questions of each passage deliberately.",
+            "Change answers only with new evidence.",
+            "Use margin notes to police assumptions."
+          ]
+        },
+        {
+          "date": "April 25, 2026",
+          "feel": "Warm, assertive, and decisive.",
+          "why": "Leo Moon + Mercury Aries quicken choices; Venus in Gemini eases verbal flow.",
+          "advice": [
+            "Insert 5-second pauses before ‘obvious’ picks.",
+            "Break long paragraphs into claim/evidence bullets.",
+            "Micro-pause every two pages to prevent over-speed."
+          ]
+        },
+        {
+          "date": "May 2, 2026",
+          "feel": "Deep, crisp, and stamina-friendly.",
+          "why": "Scorpio Moon sustains focus; Aries Mercury sharpens takeaways.",
+          "advice": [
+            "Zoom out after each paragraph to avoid tunnel vision.",
+            "Flag emotionally charged passages for a second, cooler look.",
+            "Protect energy with brief box breathing at breaks."
+          ]
+        },
+        {
+          "date": "May 8, 2026",
+          "feel": "Methodical momentum; patient and thorough.",
+          "why": "Earth emphasis (Taurus/Capricorn) supports stability and elimination.",
+          "advice": [
+            "Use elimination statements (“contradicts line 12”).",
+            "Set checkpoints every 8–9 minutes.",
+            "Don’t hunt perfect certainty—choose the most supported."
+          ]
+        },
+        {
+          "date": "May 9, 2026",
+          "feel": "Objective with grounded parsing.",
+          "why": "Aquarius Moon supports synthesis; Taurus Mercury keeps edges clear.",
+          "advice": [
+            "Re-read stems that feel ‘too easy.’",
+            "Map each answer to a specific sentence.",
+            "Keep tempo brisk to avoid late squeeze."
+          ]
+        },
+        {
+          "date": "May 14, 2026",
+          "feel": "Fast comprehension with careful hands.",
+          "why": "Aries Moon speeds activation; Taurus Mercury reduces careless errors.",
+          "advice": [
+            "Draft a 1-line thesis before options.",
+            "Throttle speed on dense humanities passages.",
+            "Timebox any single question to 90 seconds."
+          ]
+        },
+        {
+          "date": "May 22, 2026",
+          "feel": "Talkative mind, clear summaries, confident choices.",
+          "why": "Gemini Sun/Mercury drive verbal flow; Leo Moon adds assertiveness.",
+          "advice": [
+            "Read tone words twice; avoid skimming.",
+            "Silence test room distractions with permitted aids.",
+            "Summarize each passage in 12 words max."
+          ]
+        },
+        {
+          "date": "May 30, 2026",
+          "feel": "Curious yet composed; depth when needed.",
+          "why": "Gemini Mercury speeds parsing; Scorpio Moon supports deep inference.",
+          "advice": [
+            "Use passage maps: thesis, supports, counterpoints.",
+            "Avoid over-digging where text is thin.",
+            "Reset attention at section mid-point."
+          ]
+        },
+        {
+          "date": "June 12, 2026",
+          "feel": "Calm, supportive, memory-friendly.",
+          "why": "Taurus Moon + Cancer Mercury aid endurance and detail recall.",
+          "advice": [
+            "Lean on line references to justify picks.",
+            "Guard against sentimental bias—stick to evidence.",
+            "Plan nutrition to avoid post-noon dip."
+          ]
+        },
+        {
+          "date": "June 13, 2026",
+          "feel": "Comfortable consistency with solid retention.",
+          "why": "Taurus Moon steadies; Cancer Mercury helps recall across long passages.",
+          "advice": [
+            "Use checkpoint timers to maintain pace.",
+            "Limit reviews to flagged items only.",
+            "Keep posture open to sustain alertness."
+          ]
+        },
+        {
+          "date": "June 26, 2026",
+          "feel": "Intense but productive; emotions can fuel focus.",
+          "why": "Cancer Sun/Mercury memory boost; Scorpio Moon deep work.",
+          "advice": [
+            "Name the author’s purpose explicitly in notes.",
+            "If triggered by content, breathe then re-anchor to text.",
+            "Schedule a short reset between sections."
+          ]
+        },
+        {
+          "date": "June 27, 2026",
+          "feel": "Expansive and confident, with quick decisions.",
+          "why": "Sagittarius Moon lifts optimism; Cancer Mercury supports detail recall.",
+          "advice": [
+            "Force a second read on nuanced stems.",
+            "Use a hard stop for answer changes.",
+            "Keep hydration steady to sustain pace."
+          ]
+        },
+        {
+          "date": "July 11, 2026",
+          "feel": "Light, nimble, and adaptable.",
+          "why": "Gemini Moon aids pivots; Cancer Mercury preserves fine detail.",
+          "advice": [
+            "Anchor each choice to a line number.",
+            "Clamp context switching with brief note headers.",
+            "Use mini-breaks to keep attention fresh."
+          ]
+        },
+        {
+          "date": "July 24, 2026",
+          "feel": "Confident and probing; strong presence.",
+          "why": "Leo Sun boosts courage; Scorpio Moon favors digging into arguments.",
+          "advice": [
+            "Demand explicit textual proof before locking.",
+            "Avoid debating the passage—analyze it.",
+            "Protect energy from others’ stress pre-test."
+          ]
+        },
+        {
+          "date": "July 31, 2026",
+          "feel": "Objective with bold motivation.",
+          "why": "Aquarius Moon promotes fairness; Leo Sun sustains drive.",
+          "advice": [
+            "Re-engage with author voice if feeling detached.",
+            "When two answers fit, prefer the one with tighter evidence.",
+            "Keep a steady cadence across passages."
+          ]
+        },
+        {
+          "date": "August 15, 2026",
+          "feel": "Analytical, tidy, and socially smooth.",
+          "why": "Virgo Moon tidies thinking; Leo Mercury clarifies summaries; Venus Libra eases nerves.",
+          "advice": [
+            "Timebox reviews to avoid perfectionism.",
+            "Use concise margin symbols (T=thesis, E=evidence).",
+            "Lights out early the night before."
+          ]
+        },
+        {
+          "date": "August 21, 2026",
+          "feel": "Fast and clear with upbeat drive.",
+          "why": "Sagittarius Moon speeds decisions; Leo Mercury sharpens articulation.",
+          "advice": [
+            "Insert deliberate slows on tricky inference items.",
+            "Use breath resets when excitement spikes.",
+            "Stick to your pacing grid."
+          ]
+        },
+        {
+          "date": "August 22, 2026",
+          "feel": "Decisive, upbeat, adrenaline-friendly.",
+          "why": "Late-Leo/Sag mix favors quick synthesis and bold choices.",
+          "advice": [
+            "Require a quoted support for each selection.",
+            "Plan water and micro-breathing cadence.",
+            "If racing, count to three before locking."
+          ]
+        },
+        {
+          "date": "September 3, 2026",
+          "feel": "Precise, steady, and structured.",
+          "why": "Virgo Sun/Mercury with Taurus Moon emphasizes accuracy and consistent pacing.",
+          "advice": [
+            "Set max 90 seconds per question.",
+            "Use elimination phrased as evidence checks.",
+            "Release tension between passages with posture resets."
+          ]
+        },
+        {
+          "date": "September 4, 2026",
+          "feel": "Curious and accurate; mentally light.",
+          "why": "Gemini Moon boosts agility; Mercury in Virgo keeps structure tight.",
+          "advice": [
+            "Annotate claims vs. support to prevent hopping.",
+            "Avoid premature answer changes.",
+            "Keep tempo brisk to finish with review time."
+          ]
+        },
+        {
+          "date": "September 11, 2026",
+          "feel": "Disciplined study flow with clean handoffs.",
+          "why": "Double Virgo structure; Mercury at 0° Libra aids balance.",
+          "advice": [
+            "Set ‘good-enough’ thresholds to prevent loops.",
+            "Weigh options explicitly against the thesis.",
+            "Don’t over-index tone without text."
+          ]
+        },
+        {
+          "date": "September 12, 2026",
+          "feel": "Measured, relational, and fair.",
+          "why": "Libra Moon/Mercury help perspective-taking; Virgo Sun keeps mechanics tight.",
+          "advice": [
+            "Limit revisits to a single pass.",
+            "When pulled by emotion, return to quoted lines.",
+            "Use tie-break questions: ‘Which is most text-bounded?’"
+          ]
+        }
+      ]
+    }
+  }
+  

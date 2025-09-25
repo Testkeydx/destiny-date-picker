@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Personalized astrological profiles for MCAT test taking based on Sun sign",
+    "note": "Combines traditional astrology with test-taking psychology"
+  },
+  "profiles": {
+    "Aries": {
+      "sign": "Aries",
+      "element": "Fire",
+      "modality": "Cardinal",
+      "dateRange": { "start": "03-21", "end": "04-19" },
+      "traits": {
+        "testTakingStyle": ["Quick decision maker", "First instinct trusting", "High energy", "Competitive"],
+        "strengths": ["Thrives under pressure", "Bold answer choices", "Fast processing", "Natural leadership energy"],
+        "challenges": ["May rush through questions", "Impatience with long passages", "Can be impulsive"],
+        "mercuryRxSensitivity": "Medium",
+        "optimalMoonPhases": ["New Moon", "Waxing Crescent"],
+        "beneficialPlanets": ["Mars", "Jupiter"],
+        "challengingPlanets": ["Saturn", "Neptune"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Channel competitive energy into practice tests", "Set time limits to practice pacing", "Use active study methods"],
+        "testDay": ["Trust your first instincts", "Take deep breaths between sections", "Use your natural confidence"],
+        "recovery": ["Celebrate completion immediately", "Plan active recovery", "Don't overthink answers afterward"]
+      }
+    },
+    "Taurus": {
+      "sign": "Taurus",
+      "element": "Earth",
+      "modality": "Fixed",
+      "dateRange": { "start": "04-20", "end": "05-20" },
+      "traits": {
+        "testTakingStyle": ["Methodical approach", "Steady pacing", "Thorough reading", "Practical thinking"],
+        "strengths": ["Excellent endurance", "Careful consideration", "Strong memory", "Calm under pressure"],
+        "challenges": ["May be too slow", "Difficulty with time pressure", "Resistant to changing answers"],
+        "mercuryRxSensitivity": "Low",
+        "optimalMoonPhases": ["Full Moon", "Waning Gibbous"],
+        "beneficialPlanets": ["Venus", "Moon"],
+        "challengingPlanets": ["Mars", "Uranus"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Create consistent study routines", "Practice with timed sections", "Focus on fundamentals"],
+        "testDay": ["Allow extra time for breakfast", "Bring comfort items", "Stick to your routine"],
+        "recovery": ["Plan restful activities", "Treat yourself to something nice", "Process results slowly"]
+      }
+    },
+    "Gemini": {
+      "sign": "Gemini",
+      "element": "Air",
+      "modality": "Mutable",
+      "dateRange": { "start": "05-21", "end": "06-20" },
+      "traits": {
+        "testTakingStyle": ["Quick mental processing", "Good at elimination", "Adaptable strategies", "Strong verbal skills"],
+        "strengths": ["Excellent reading comprehension", "Fast pattern recognition", "Mental agility", "Good at multiple choice"],
+        "challenges": ["May overthink answers", "Difficulty focusing", "Can be scattered"],
+        "mercuryRxSensitivity": "High",
+        "optimalMoonPhases": ["Waxing Gibbous", "Third Quarter"],
+        "beneficialPlanets": ["Mercury", "Venus"],
+        "challengingPlanets": ["Saturn", "Pluto"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Vary study methods to stay engaged", "Practice focus techniques", "Use flashcards and quick reviews"],
+        "testDay": ["Bring stress balls or fidget tools", "Take breaks to reset focus", "Trust your verbal instincts"],
+        "recovery": ["Talk through the experience", "Stay mentally active", "Avoid dwelling on individual questions"]
+      }
+    },
+    "Cancer": {
+      "sign": "Cancer",
+      "element": "Water",
+      "modality": "Cardinal",
+      "dateRange": { "start": "06-21", "end": "07-22" },
+      "traits": {
+        "testTakingStyle": ["Intuitive approach", "Emotionally sensitive", "Strong memory", "Caring perspective"],
+        "strengths": ["Excellent retention", "Good at context clues", "Strong intuition", "Empathetic reasoning"],
+        "challenges": ["Anxiety sensitivity", "Emotional overwhelm", "Takes things personally"],
+        "mercuryRxSensitivity": "Medium",
+        "optimalMoonPhases": ["New Moon", "Full Moon"],
+        "beneficialPlanets": ["Moon", "Venus"],
+        "challengingPlanets": ["Mars", "Saturn"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Create comfortable study environments", "Practice emotional regulation", "Use memory palaces"],
+        "testDay": ["Bring emotional comfort items", "Practice breathing exercises", "Trust your gut feelings"],
+        "recovery": ["Process emotions with support system", "Practice self-care", "Celebrate your effort"]
+      }
+    },
+    "Leo": {
+      "sign": "Leo",
+      "element": "Fire",
+      "modality": "Fixed",
+      "dateRange": { "start": "07-23", "end": "08-22" },
+      "traits": {
+        "testTakingStyle": ["Confident approach", "Big picture thinking", "Performance oriented", "Natural leadership"],
+        "strengths": ["High confidence", "Great under spotlight", "Strong presence", "Optimistic outlook"],
+        "challenges": ["May be overconfident", "Difficulty with details", "Pride can interfere"],
+        "mercuryRxSensitivity": "Medium",
+        "optimalMoonPhases": ["Waxing Gibbous", "Full Moon"],
+        "beneficialPlanets": ["Sun", "Jupiter"],
+        "challengingPlanets": ["Saturn", "Neptune"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Practice in front of others", "Focus on weak areas honestly", "Use dramatic study techniques"],
+        "testDay": ["Dress to feel confident", "Use positive self-talk", "Take command of your space"],
+        "recovery": ["Share your experience proudly", "Plan a celebration", "Focus on your courage"]
+      }
+    },
+    "Virgo": {
+      "sign": "Virgo",
+      "element": "Earth",
+      "modality": "Mutable",
+      "dateRange": { "start": "08-23", "end": "09-22" },
+      "traits": {
+        "testTakingStyle": ["Detail-oriented", "Analytical", "Systematic", "Perfectionist"],
+        "strengths": ["Excellent attention to detail", "Strong analytical skills", "Methodical approach", "High standards"],
+        "challenges": ["Perfectionism paralysis", "Overthinking", "Time management"],
+        "mercuryRxSensitivity": "High",
+        "optimalMoonPhases": ["Third Quarter", "Waning Crescent"],
+        "beneficialPlanets": ["Mercury", "Saturn"],
+        "challengingPlanets": ["Jupiter", "Neptune"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Create detailed study schedules", "Practice letting go of perfection", "Use systematic review methods"],
+        "testDay": ["Allow time for organization", "Practice moving on from difficult questions", "Trust your preparation"],
+        "recovery": ["Focus on what went well", "Avoid overanalyzing", "Practice self-compassion"]
+      }
+    },
+    "Libra": {
+      "sign": "Libra",
+      "element": "Air",
+      "modality": "Cardinal",
+      "dateRange": { "start": "09-23", "end": "10-22" },
+      "traits": {
+        "testTakingStyle": ["Balanced approach", "Weighs all options", "Seeks harmony", "Diplomatic thinking"],
+        "strengths": ["Good at seeing multiple perspectives", "Balanced reasoning", "Fair judgment", "Social reasoning"],
+        "challenges": ["Indecisiveness", "Difficulty with time pressure", "Avoids conflict"],
+        "mercuryRxSensitivity": "Medium",
+        "optimalMoonPhases": ["First Quarter", "Full Moon"],
+        "beneficialPlanets": ["Venus", "Mercury"],
+        "challengingPlanets": ["Mars", "Pluto"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Practice decision-making under time pressure", "Study with others", "Focus on ethics questions"],
+        "testDay": ["Use process of elimination", "Trust your sense of balance", "Create pleasant environment"],
+        "recovery": ["Discuss with friends", "Focus on fairness of effort", "Seek harmony and balance"]
+      }
+    },
+    "Scorpio": {
+      "sign": "Scorpio",
+      "element": "Water",
+      "modality": "Fixed",
+      "dateRange": { "start": "10-23", "end": "11-21" },
+      "traits": {
+        "testTakingStyle": ["Intense focus", "Deep analysis", "Strategic thinking", "All-or-nothing approach"],
+        "strengths": ["Incredible focus", "Deep understanding", "Strong intuition", "Transformative mindset"],
+        "challenges": ["Can be too intense", "All-or-nothing thinking", "Emotional extremes"],
+        "mercuryRxSensitivity": "Low",
+        "optimalMoonPhases": ["New Moon", "Dark Moon"],
+        "beneficialPlanets": ["Pluto", "Mars"],
+        "challengingPlanets": ["Venus", "Jupiter"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Use intense study sessions", "Practice emotional regulation", "Focus on transformation"],
+        "testDay": ["Channel intensity positively", "Trust your deep insights", "Use strategic thinking"],
+        "recovery": ["Process deeply", "Focus on growth", "Transform challenges into wisdom"]
+      }
+    },
+    "Sagittarius": {
+      "sign": "Sagittarius",
+      "element": "Fire",
+      "modality": "Mutable",
+      "dateRange": { "start": "11-22", "end": "12-21" },
+      "traits": {
+        "testTakingStyle": ["Optimistic approach", "Big picture focus", "Intuitive leaps", "Freedom-loving"],
+        "strengths": ["Natural optimism", "Good at synthesis", "Quick understanding", "Philosophical thinking"],
+        "challenges": ["May skip details", "Impatience with minutiae", "Overconfidence"],
+        "mercuryRxSensitivity": "Medium",
+        "optimalMoonPhases": ["Waxing Crescent", "Waxing Gibbous"],
+        "beneficialPlanets": ["Jupiter", "Sun"],
+        "challengingPlanets": ["Saturn", "Mercury"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Connect material to bigger purpose", "Use varied learning environments", "Practice detail work"],
+        "testDay": ["Remember your why", "Use optimistic energy", "Trust your understanding"],
+        "recovery": ["Plan an adventure", "Focus on the journey", "Maintain perspective"]
+      }
+    },
+    "Capricorn": {
+      "sign": "Capricorn",
+      "element": "Earth",
+      "modality": "Cardinal",
+      "dateRange": { "start": "12-22", "end": "01-19" },
+      "traits": {
+        "testTakingStyle": ["Strategic approach", "Goal-oriented", "Disciplined", "Practical"],
+        "strengths": ["Excellent discipline", "Strategic thinking", "Strong endurance", "Goal achievement"],
+        "challenges": ["May be too serious", "Pressure sensitivity", "Perfectionism"],
+        "mercuryRxSensitivity": "Low",
+        "optimalMoonPhases": ["Third Quarter", "New Moon"],
+        "beneficialPlanets": ["Saturn", "Mars"],
+        "challengingPlanets": ["Moon", "Neptune"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Create structured study plans", "Set milestone goals", "Practice self-compassion"],
+        "testDay": ["Use your natural discipline", "Remember your long-term goals", "Stay grounded"],
+        "recovery": ["Acknowledge your achievement", "Plan next steps", "Practice patience"]
+      }
+    },
+    "Aquarius": {
+      "sign": "Aquarius",
+      "element": "Air",
+      "modality": "Fixed",
+      "dateRange": { "start": "01-20", "end": "02-18" },
+      "traits": {
+        "testTakingStyle": ["Innovative approach", "Independent thinking", "Logical analysis", "Unique perspective"],
+        "strengths": ["Original thinking", "Good pattern recognition", "Logical reasoning", "Independent mindset"],
+        "challenges": ["May be too unconventional", "Detachment from emotions", "Stubbornness"],
+        "mercuryRxSensitivity": "Medium",
+        "optimalMoonPhases": ["First Quarter", "Third Quarter"],
+        "beneficialPlanets": ["Uranus", "Mercury"],
+        "challengingPlanets": ["Sun", "Mars"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Use innovative study methods", "Study independently", "Focus on logical patterns"],
+        "testDay": ["Trust your unique perspective", "Use logical reasoning", "Stay detached from pressure"],
+        "recovery": ["Process intellectually", "Focus on helping others", "Maintain independence"]
+      }
+    },
+    "Pisces": {
+      "sign": "Pisces",
+      "element": "Water",
+      "modality": "Mutable",
+      "dateRange": { "start": "02-19", "end": "03-20" },
+      "traits": {
+        "testTakingStyle": ["Intuitive approach", "Empathetic reasoning", "Imaginative", "Adaptive"],
+        "strengths": ["Strong intuition", "Empathetic understanding", "Creative problem solving", "Adaptability"],
+        "challenges": ["Emotional sensitivity", "Difficulty with hard logic", "Overwhelm tendency"],
+        "mercuryRxSensitivity": "High",
+        "optimalMoonPhases": ["Full Moon", "Waning Gibbous"],
+        "beneficialPlanets": ["Neptune", "Venus"],
+        "challengingPlanets": ["Mercury", "Saturn"]
+      },
+      "personalizedAdvice": {
+        "preparation": ["Use visualization techniques", "Practice grounding exercises", "Trust intuitive learning"],
+        "testDay": ["Use emotional intelligence", "Practice staying grounded", "Trust your instincts"],
+        "recovery": ["Process emotions fully", "Use creative expression", "Focus on compassion"]
+      }
+    }
+  }
+}

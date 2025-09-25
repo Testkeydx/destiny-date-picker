@@ -48,10 +48,10 @@ export default function Landing() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Find Your MCAT Star Date ✨
+              Find Your 2026 MCAT Star Date ✨
             </h1>
             <p className="text-xl text-foreground-secondary mb-12 max-w-2xl mx-auto leading-relaxed">
-              Astrology + practical scheduling to pick your best test day.
+              Astrology + practical scheduling to pick your best 2026 test day.
             </p>
           </motion.div>
 
@@ -67,17 +67,17 @@ export default function Landing() {
                 <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-12 w-12" />
               </div>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
-                Cosmic Timing Meets Medical School Goals
+                2026 Cosmic Timing Meets Medical School Goals
               </h2>
               <p className="text-foreground-secondary mb-8">
-                Let the stars guide your MCAT journey with data-driven astrological insights.
+                Let the stars guide your 2026 MCAT journey with precise astrological insights for all test dates.
               </p>
               <Button
                 size="lg"
                 onClick={() => navigate("/onboarding")}
                 className="bg-gradient-primary hover:opacity-90 text-white px-8 py-3 rounded-2xl shadow-glow transition-all duration-200 hover:scale-105"
               >
-                Start Your Journey
+                Find My 2026 Dates
               </Button>
             </GradientFrame>
           </motion.div>
@@ -117,7 +117,7 @@ export default function Landing() {
             className="mt-16 text-center"
           >
             <p className="text-sm text-foreground-muted mb-4">
-              Used by future doctors who believe in cosmic timing
+              Helping future doctors choose the perfect 2026 MCAT date with cosmic timing
             </p>
             <BrandBadge variant="minimal" />
           </motion.div>

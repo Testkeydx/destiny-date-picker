@@ -1,0 +1,783 @@
+{
+    "metadata": {
+      "description": "Tropical zodiac, geocentric positions at 00:00 GMT for listed MCAT test dates. Includes sign/degree strings exactly as provided, with any motion notes (e.g., retrograde) preserved verbatim.",
+      "sources": {
+        "planetary_positions": ["findyourfate.com"],
+        "moon_phase_context": ["cafeastrology.com"]
+      }
+    },
+    "data": {
+      "2025": {
+        "summary": "For each 2025 test date below, the tropical zodiac positions of the Sun, Moon, and planets (geocentric, at 00:00 GMT on that date) are given. The positions include the sign and degree of each body.",
+        "dates": [
+          {
+            "date": "July 25, 2025",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "02°20′ Leo",
+              "Moon": "04°53′ Leo",
+              "Mercury": "13°44′ Leo (Mercury retrograde)",
+              "Venus": "22°54′ Gemini",
+              "Mars": "22°01′ Virgo",
+              "Jupiter": "10°12′ Cancer",
+              "Saturn": "01°49′ Aries",
+              "Uranus": "00°42′ Gemini",
+              "Neptune": "02°04′ Aries",
+              "Pluto": "02°36′ Aquarius",
+              "North Node": "20°38′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "August 1, 2025",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "09°01′ Leo",
+              "Moon": "03°15′ Scorpio",
+              "Mercury": "09°00′ Leo (Mercury retrograde)",
+              "Venus": "00°58′ Cancer",
+              "Mars": "26°18′ Virgo",
+              "Jupiter": "11°43′ Cancer",
+              "Saturn": "01°38′ Aries",
+              "Uranus": "00°55′ Gemini",
+              "Neptune": "01°59′ Aries",
+              "Pluto": "02°26′ Aquarius",
+              "North Node": "20°16′ Pisces"
+            },
+            "notes": ["First Quarter Moon occurred on this date in Scorpio"],
+            "sources_inline": ["findyourfate.com", "cafeastrology.com"]
+          },
+          {
+            "date": "August 16, 2025",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "23°24′ Leo",
+              "Moon": "20°31′ Taurus",
+              "Mercury": "05°32′ Leo (now direct)",
+              "Venus": "18°30′ Cancer",
+              "Mars": "05°40′ Libra",
+              "Jupiter": "14°49′ Cancer",
+              "Saturn": "01°00′ Aries",
+              "Uranus": "01°16′ Gemini",
+              "Neptune": "01°44′ Aries",
+              "Pluto": "02°05′ Aquarius",
+              "North Node": "19°29′ Pisces"
+            },
+            "notes": ["Last Quarter Moon occurred on this date in Taurus"],
+            "sources_inline": ["findyourfate.com", "cafeastrology.com"]
+          },
+          {
+            "date": "August 22, 2025",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "29°10′ Leo",
+              "Moon": "13°51′ Leo",
+              "Mercury": "10°56′ Leo",
+              "Venus": "25°37′ Cancer",
+              "Mars": "09°28′ Libra",
+              "Jupiter": "16°00′ Cancer",
+              "Saturn": "00°40′ Aries",
+              "Uranus": "01°22′ Gemini",
+              "Neptune": "01°36′ Aries",
+              "Pluto": "01°58′ Aquarius",
+              "North Node": "19°10′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "August 23, 2025",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "00°08′ Virgo",
+              "Moon": "27°03′ Leo",
+              "Mercury": "12°13′ Leo",
+              "Venus": "26°48′ Cancer",
+              "Mars": "10°07′ Libra",
+              "Jupiter": "16°12′ Cancer",
+              "Saturn": "00°37′ Aries",
+              "Uranus": "01°23′ Gemini",
+              "Neptune": "01°35′ Aries",
+              "Pluto": "01°57′ Aquarius",
+              "North Node": "19°06′ Pisces"
+            },
+            "notes": ["New Moon in Virgo on this date"],
+            "sources_inline": ["findyourfate.com", "cafeastrology.com"]
+          },
+          {
+            "date": "September 4, 2025",
+            "weekday": "Thursday",
+            "bodies": {
+              "Sun": "11°44′ Virgo",
+              "Moon": "24°17′ Capricorn",
+              "Mercury": "02°46′ Virgo",
+              "Venus": "11°10′ Leo",
+              "Mars": "17°52′ Libra",
+              "Jupiter": "18°24′ Cancer",
+              "Saturn": "29°49′ Pisces (retrograde)",
+              "Uranus": "01°28′ Gemini",
+              "Neptune": "01°17′ Aries",
+              "Pluto": "01°43′ Aquarius",
+              "North Node": "18°28′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 5, 2025",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "12°42′ Virgo",
+              "Moon": "07°23′ Aquarius",
+              "Mercury": "04°42′ Virgo",
+              "Venus": "12°22′ Leo",
+              "Mars": "18°31′ Libra",
+              "Jupiter": "18°35′ Cancer",
+              "Saturn": "29°44′ Pisces (retrograde)",
+              "Uranus": "01°28′ Gemini",
+              "Neptune": "01°16′ Aries",
+              "Pluto": "01°42′ Aquarius",
+              "North Node": "18°25′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 12, 2025",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "19°30′ Virgo",
+              "Moon": "16°57′ Taurus",
+              "Mercury": "18°11′ Virgo",
+              "Venus": "20°50′ Leo",
+              "Mars": "23°07′ Libra",
+              "Jupiter": "19°45′ Cancer",
+              "Saturn": "29°13′ Pisces (retrograde)",
+              "Uranus": "01°27′ Gemini",
+              "Neptune": "01°05′ Aries",
+              "Pluto": "01°36′ Aquarius",
+              "North Node": "18°03′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 13, 2025",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "20°28′ Virgo",
+              "Moon": "01°24′ Gemini",
+              "Mercury": "20°04′ Virgo",
+              "Venus": "22°03′ Leo",
+              "Mars": "23°47′ Libra",
+              "Jupiter": "19°55′ Cancer",
+              "Saturn": "29°09′ Pisces (retrograde)",
+              "Uranus": "01°27′ Gemini",
+              "Neptune": "01°03′ Aries",
+              "Pluto": "01°35′ Aquarius",
+              "North Node": "18°00′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          }
+        ]
+      },
+      "2026": {
+        "summary": "Astrological positions for the 2026 test dates are given below (tropical zodiac, geocentric, 00:00 GMT). Notably, Mercury was not in retrograde during most of these dates, except early January 2026 when it had just recently turned direct. Planetary sign changes and lunar phases are noted where applicable.",
+        "dates": [
+          {
+            "date": "January 9, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "18°43′ Capricorn",
+              "Moon": "29°56′ Virgo",
+              "Mercury": "11°03′ Capricorn",
+              "Venus": "19°16′ Capricorn",
+              "Mars": "18°50′ Capricorn",
+              "Jupiter": "20°17′ Cancer",
+              "Saturn": "26°41′ Pisces (retrograde)",
+              "Uranus": "27°45′ Taurus",
+              "Neptune": "29°38′ Pisces",
+              "Pluto": "02°58′ Aquarius",
+              "North Node": "11°45′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "January 10, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "19°44′ Capricorn",
+              "Moon": "12°22′ Libra",
+              "Mercury": "12°38′ Capricorn",
+              "Venus": "20°32′ Capricorn",
+              "Mars": "19°37′ Capricorn",
+              "Jupiter": "20°09′ Cancer",
+              "Saturn": "26°45′ Pisces (retrograde)",
+              "Uranus": "27°44′ Taurus",
+              "Neptune": "29°39′ Pisces",
+              "Pluto": "02°60′ Aquarius",
+              "North Node": "11°42′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "January 15, 2026",
+            "weekday": "Thursday",
+            "bodies": {
+              "Sun": "24°50′ Capricorn",
+              "Moon": "12°05′ Sagittarius",
+              "Mercury": "20°38′ Capricorn",
+              "Venus": "26°49′ Capricorn",
+              "Mars": "23°29′ Capricorn",
+              "Jupiter": "19°29′ Cancer",
+              "Saturn": "27°08′ Pisces (stationary/retrograde)",
+              "Uranus": "27°38′ Taurus",
+              "Neptune": "29°44′ Pisces",
+              "Pluto": "03°09′ Aquarius",
+              "North Node": "11°26′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "January 23, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "02°59′ Aquarius",
+              "Moon": "22°31′ Pisces",
+              "Mercury": "03°52′ Aquarius",
+              "Venus": "06°52′ Aquarius",
+              "Mars": "29°42′ Capricorn",
+              "Jupiter": "18°26′ Cancer",
+              "Saturn": "27°48′ Pisces (retrograde, re-entering Pisces)",
+              "Uranus": "27°31′ Taurus",
+              "Neptune": "29°55′ Pisces",
+              "Pluto": "03°24′ Aquarius",
+              "North Node": "11°00′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "February 13, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "24°17′ Aquarius",
+              "Moon": "02°08′ Capricorn",
+              "Mercury": "10°13′ Pisces",
+              "Venus": "03°13′ Pisces",
+              "Mars": "16°09′ Aquarius",
+              "Jupiter": "16°11′ Cancer",
+              "Saturn": "29°53′ Pisces (stationary direct)",
+              "Uranus": "27°30′ Taurus",
+              "Neptune": "00°30′ Aries",
+              "Pluto": "04°04′ Aquarius",
+              "North Node": "09°54′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "March 7, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "16°25′ Pisces",
+              "Moon": "27°55′ Libra",
+              "Mercury": "17°20′ Pisces",
+              "Venus": "00°41′ Aries",
+              "Mars": "03°28′ Pisces",
+              "Jupiter": "15°07′ Cancer",
+              "Saturn": "02°27′ Aries",
+              "Uranus": "27°52′ Taurus",
+              "Neptune": "01°14′ Aries",
+              "Pluto": "04°41′ Aquarius",
+              "North Node": "08°44′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "March 20, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "29°23′ Pisces",
+              "Moon": "11°43′ Aries",
+              "Mercury": "08°31′ Pisces",
+              "Venus": "16°49′ Aries",
+              "Mars": "13°42′ Pisces",
+              "Jupiter": "15°13′ Cancer",
+              "Saturn": "04°03′ Aries",
+              "Uranus": "28°17′ Taurus",
+              "Neptune": "04°59′ Aquarius",
+              "Pluto": "03°59′ Aquarius",
+              "North Node": "08°02′ Pisces"
+            },
+            "notes": ["Sun entered Aries – vernal equinox – on the next day"],
+            "sources_inline": ["findyourfate.com", "findyourfate.com"]
+          },
+          {
+            "date": "April 10, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "20°08′ Aries",
+              "Moon": "17°53′ Capricorn",
+              "Mercury": "23°12′ Pisces",
+              "Venus": "12°42′ Taurus",
+              "Mars": "00°09′ Aries",
+              "Jupiter": "16°29′ Cancer",
+              "Saturn": "06°40′ Aries",
+              "Uranus": "29°10′ Taurus",
+              "Neptune": "05°21′ Aquarius",
+              "Pluto": "06°56′ Pisces",
+              "North Node": "03°58′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "April 11, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "21°07′ Aries",
+              "Moon": "00°02′ Aquarius",
+              "Mercury": "24°27′ Pisces",
+              "Venus": "13°55′ Taurus",
+              "Mars": "00°55′ Aries",
+              "Jupiter": "16°34′ Cancer",
+              "Saturn": "06°47′ Aries",
+              "Uranus": "29°13′ Taurus",
+              "Neptune": "05°23′ Aquarius",
+              "Pluto": "06°52′ Pisces",
+              "North Node": "03°54′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "April 24, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "03°50′ Taurus",
+              "Moon": "02°29′ Leo",
+              "Mercury": "13°37′ Aries",
+              "Venus": "29°48′ Taurus",
+              "Mars": "10°60′ Aries",
+              "Jupiter": "17°59′ Cancer",
+              "Saturn": "08°21′ Aries",
+              "Uranus": "29°53′ Taurus",
+              "Neptune": "03°02′ Aquarius",
+              "Pluto": "05°28′ Pisces",
+              "North Node": "06°11′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "April 25, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "04°49′ Taurus",
+              "Moon": "16°06′ Leo",
+              "Mercury": "15°18′ Aries",
+              "Venus": "01°01′ Gemini",
+              "Mars": "11°46′ Aries",
+              "Jupiter": "18°07′ Cancer",
+              "Saturn": "08°28′ Aries",
+              "Uranus": "29°57′ Taurus",
+              "Neptune": "03°06′ Aquarius",
+              "Pluto": "05°26′ Pisces",
+              "North Node": "06°08′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "May 2, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "11°37′ Taurus",
+              "Moon": "14°40′ Scorpio",
+              "Mercury": "27°51′ Aries",
+              "Venus": "09°30′ Gemini",
+              "Mars": "17°08′ Aries",
+              "Jupiter": "19°03′ Cancer",
+              "Saturn": "09°16′ Aries",
+              "Uranus": "00°20′ Gemini",
+              "Neptune": "03°18′ Aquarius",
+              "Pluto": "05°30′ Pisces",
+              "North Node": "05°46′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "May 8, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "17°26′ Taurus",
+              "Moon": "26°15′ Capricorn",
+              "Mercury": "09°44′ Taurus",
+              "Venus": "16°45′ Gemini",
+              "Mars": "21°43′ Aries",
+              "Jupiter": "19°56′ Cancer",
+              "Saturn": "09°55′ Aries",
+              "Uranus": "00°40′ Gemini",
+              "Neptune": "03°29′ Aquarius",
+              "Pluto": "05°30′ Pisces",
+              "North Node": "05°27′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "May 9, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "18°24′ Taurus",
+              "Moon": "08°22′ Aquarius",
+              "Mercury": "11°49′ Taurus",
+              "Venus": "17°57′ Gemini",
+              "Mars": "22°29′ Aries",
+              "Jupiter": "20°05′ Cancer",
+              "Saturn": "10°02′ Aries",
+              "Uranus": "00°43′ Gemini",
+              "Neptune": "03°30′ Aquarius",
+              "Pluto": "05°30′ Pisces",
+              "North Node": "05°23′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "May 14, 2026",
+            "weekday": "Thursday",
+            "bodies": {
+              "Sun": "23°14′ Taurus",
+              "Moon": "13°58′ Aries",
+              "Mercury": "22°30′ Taurus",
+              "Venus": "23°57′ Gemini",
+              "Mars": "26°16′ Aries",
+              "Jupiter": "20°53′ Cancer",
+              "Saturn": "10°33′ Aries",
+              "Uranus": "01°01′ Gemini",
+              "Neptune": "03°39′ Aquarius",
+              "Pluto": "05°30′ Pisces",
+              "North Node": "05°08′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "May 22, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "00°56′ Gemini",
+              "Moon": "12°26′ Leo",
+              "Mercury": "09°50′ Gemini",
+              "Venus": "03°32′ Cancer",
+              "Mars": "02°18′ Taurus",
+              "Jupiter": "22°15′ Cancer",
+              "Saturn": "11°21′ Aries",
+              "Uranus": "01°29′ Gemini",
+              "Neptune": "03°51′ Aquarius",
+              "Pluto": "05°27′ Pisces",
+              "North Node": "04°42′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "May 30, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "08°37′ Gemini",
+              "Moon": "23°39′ Scorpio",
+              "Mercury": "25°37′ Gemini",
+              "Venus": "13°02′ Cancer",
+              "Mars": "08°17′ Taurus",
+              "Jupiter": "23°42′ Cancer",
+              "Saturn": "12°04′ Aries",
+              "Uranus": "01°57′ Gemini",
+              "Neptune": "04°02′ Aquarius",
+              "Pluto": "05°23′ Pisces",
+              "North Node": "04°17′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "June 12, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "21°04′ Gemini",
+              "Moon": "06°57′ Taurus",
+              "Mercury": "15°08′ Cancer",
+              "Venus": "28°19′ Cancer",
+              "Mars": "17°51′ Taurus",
+              "Jupiter": "26°13′ Cancer",
+              "Saturn": "13°06′ Aries",
+              "Uranus": "02°41′ Gemini",
+              "Neptune": "04°15′ Aquarius",
+              "Pluto": "05°13′ Aquarius",
+              "North Node": "03°35′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "June 13, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "22°01′ Gemini",
+              "Moon": "21°46′ Taurus",
+              "Mercury": "16°16′ Cancer",
+              "Venus": "29°29′ Cancer",
+              "Mars": "18°35′ Taurus",
+              "Jupiter": "26°25′ Cancer",
+              "Saturn": "13°10′ Aries",
+              "Uranus": "02°45′ Gemini",
+              "Neptune": "04°16′ Aquarius",
+              "Pluto": "05°12′ Aquarius",
+              "North Node": "03°32′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "June 26, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "04°26′ Cancer",
+              "Moon": "20°43′ Scorpio",
+              "Mercury": "25°43′ Cancer",
+              "Venus": "14°30′ Leo",
+              "Mars": "27°59′ Taurus",
+              "Jupiter": "29°06′ Cancer",
+              "Saturn": "13°57′ Aries",
+              "Uranus": "03°27′ Gemini",
+              "Neptune": "04°23′ Aquarius",
+              "Pluto": "04°58′ Aquarius",
+              "North Node": "02°51′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "June 27, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "05°23′ Cancer",
+              "Moon": "02°38′ Sagittarius",
+              "Mercury": "25°58′ Cancer",
+              "Venus": "15°38′ Leo",
+              "Mars": "28°42′ Taurus",
+              "Jupiter": "29°19′ Cancer",
+              "Saturn": "14°00′ Aries",
+              "Uranus": "03°30′ Gemini",
+              "Neptune": "04°24′ Aquarius",
+              "Pluto": "04°57′ Aquarius",
+              "North Node": "02°48′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "July 11, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "18°44′ Cancer",
+              "Moon": "00°47′ Gemini",
+              "Mercury": "22°02′ Cancer",
+              "Venus": "01°25′ Virgo",
+              "Mars": "08°37′ Gemini",
+              "Jupiter": "02°20′ Leo",
+              "Saturn": "14°32′ Aries",
+              "Uranus": "04°11′ Gemini",
+              "Neptune": "04°25′ Aquarius",
+              "Pluto": "04°40′ Aquarius",
+              "North Node": "02°03′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "July 24, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "01°09′ Leo",
+              "Moon": "29°26′ Scorpio",
+              "Mercury": "16°19′ Cancer",
+              "Venus": "15°37′ Virgo",
+              "Mars": "17°37′ Gemini",
+              "Jupiter": "05°11′ Leo",
+              "Saturn": "14°45′ Aries",
+              "Uranus": "04°44′ Gemini",
+              "Neptune": "04°21′ Aquarius",
+              "Pluto": "04°22′ Aquarius",
+              "North Node": "01°22′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "July 31, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "07°50′ Leo",
+              "Moon": "23°38′ Aquarius",
+              "Mercury": "18°46′ Cancer",
+              "Venus": "23°01′ Virgo",
+              "Mars": "22°24′ Gemini",
+              "Jupiter": "06°44′ Leo",
+              "Saturn": "14°44′ Aries",
+              "Uranus": "04°59′ Gemini",
+              "Neptune": "04°17′ Aquarius",
+              "Pluto": "04°12′ Aquarius",
+              "North Node": "00°60′ Pisces (i.e. 01°00′ Pisces)"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "August 15, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "22°13′ Leo",
+              "Moon": "21°54′ Virgo",
+              "Mercury": "09°15′ Leo",
+              "Venus": "08°05′ Libra",
+              "Mars": "02°24′ Cancer",
+              "Jupiter": "10°03′ Leo",
+              "Saturn": "14°26′ Aries",
+              "Uranus": "05°24′ Gemini",
+              "Neptune": "04°03′ Aquarius",
+              "Pluto": "03°51′ Aquarius",
+              "North Node": "00°12′ Pisces"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "August 21, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "27°59′ Leo",
+              "Moon": "07°43′ Sagittarius",
+              "Mercury": "21°02′ Leo",
+              "Venus": "13°43′ Libra",
+              "Mars": "06°20′ Cancer",
+              "Jupiter": "11°21′ Leo",
+              "Saturn": "14°13′ Aries",
+              "Uranus": "05°31′ Gemini",
+              "Neptune": "03°55′ Aquarius",
+              "Pluto": "03°44′ Aquarius",
+              "North Node": "29°53′ Aquarius"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "August 22, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "28°57′ Leo",
+              "Moon": "19°37′ Sagittarius",
+              "Mercury": "23°03′ Leo",
+              "Venus": "14°37′ Libra",
+              "Mars": "06°59′ Cancer",
+              "Jupiter": "11°34′ Leo",
+              "Saturn": "14°11′ Aries",
+              "Uranus": "05°32′ Gemini",
+              "Neptune": "03°53′ Aquarius",
+              "Pluto": "03°43′ Aquarius",
+              "North Node": "29°49′ Aquarius"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 3, 2026",
+            "weekday": "Thursday",
+            "bodies": {
+              "Sun": "10°32′ Virgo",
+              "Moon": "23°05′ Taurus",
+              "Mercury": "16°26′ Virgo",
+              "Venus": "24°44′ Libra",
+              "Mars": "14°40′ Cancer",
+              "Jupiter": "14°07′ Leo",
+              "Saturn": "13°34′ Aries",
+              "Uranus": "05°40′ Gemini",
+              "Neptune": "03°37′ Aquarius",
+              "Pluto": "03°28′ Aquarius",
+              "North Node": "29°12′ Aquarius"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 4, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "11°30′ Virgo",
+              "Moon": "07°10′ Gemini",
+              "Mercury": "18°16′ Virgo",
+              "Venus": "25°30′ Libra",
+              "Mars": "15°17′ Cancer",
+              "Jupiter": "14°20′ Leo",
+              "Saturn": "13°30′ Aries",
+              "Uranus": "05°41′ Gemini",
+              "Neptune": "03°35′ Aquarius",
+              "Pluto": "03°24′ Aquarius",
+              "North Node": "29°09′ Aquarius"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 11, 2026",
+            "weekday": "Friday",
+            "bodies": {
+              "Sun": "18°17′ Virgo",
+              "Moon": "16°27′ Virgo",
+              "Mercury": "00°32′ Libra",
+              "Venus": "00°26′ Scorpio",
+              "Mars": "19°40′ Cancer",
+              "Jupiter": "15°46′ Leo",
+              "Saturn": "13°04′ Aries",
+              "Uranus": "05°42′ Gemini",
+              "Neptune": "03°25′ Aquarius",
+              "Pluto": "03°21′ Aquarius",
+              "North Node": "28°46′ Aquarius"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          },
+          {
+            "date": "September 12, 2026",
+            "weekday": "Saturday",
+            "bodies": {
+              "Sun": "19°16′ Virgo",
+              "Moon": "00°04′ Libra",
+              "Mercury": "02°13′ Libra",
+              "Venus": "01°04′ Scorpio",
+              "Mars": "20°17′ Cancer",
+              "Jupiter": "15°58′ Leo",
+              "Saturn": "12°60′ Aries (i.e. 13°00′ Aries)",
+              "Uranus": "05°42′ Gemini",
+              "Neptune": "03°21′ Aquarius",
+              "Pluto": "03°27′ Aquarius",
+              "North Node": "28°43′ Aquarius"
+            },
+            "notes": [],
+            "sources_inline": ["findyourfate.com"]
+          }
+        ]
+      }
+    },
+    "overall_sources_note": "All planetary positions are obtained from published ephemerides for 2025 and 2026 (findyourfate.com), which provide daily longitudes of the Sun, Moon, and planets. The moon phase data (e.g. New Moon or First Quarter) is referenced from CafeAstrology's moon phase calendar (cafeastrology.com) for context."
+  }
+  

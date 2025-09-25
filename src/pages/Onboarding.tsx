@@ -12,6 +12,7 @@ import { Slider } from "@/components/ui/slider";
 import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { useNavigate } from "react-router-dom";
+import { YearSelector } from "@/components/YearSelector";
 
 interface OnboardingData {
   birthDate: Date | undefined;
@@ -23,6 +24,7 @@ interface OnboardingData {
   preferredTestStart: Date | undefined;
   preferredTestEnd: Date | undefined;
   timezone: string;
+  selectedYear: string;
 }
 
 export default function Onboarding() {
@@ -37,6 +39,7 @@ export default function Onboarding() {
     preferredTestStart: new Date(2026, 0, 1), // January 1, 2026
     preferredTestEnd: new Date(2026, 0, 31),  // January 31, 2026
     timezone: "America/New_York",
+    selectedYear: "2026",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -72,10 +75,10 @@ export default function Onboarding() {
         >
           <div className="text-center mb-8">
             <h1 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-              Tell Us About Your Journey
+              Tell Us About Your 2026 MCAT Journey
             </h1>
             <p className="text-foreground-secondary">
-              A few details to create your personalized cosmic MCAT timeline
+              A few details to create your personalized 2026 cosmic MCAT timeline
             </p>
           </div>
 
@@ -210,6 +213,17 @@ export default function Onboarding() {
                   </div>
 
                   <div className="space-y-4">
+                    <div>
+                      <Label htmlFor="selectedYear" className="text-foreground-secondary">Test Year</Label>
+                      <div className="mt-2">
+                        <YearSelector
+                          selectedYear={data.selectedYear}
+                          onYearChange={(year) => updateData("selectedYear", year)}
+                          className="w-full"
+                        />
+                      </div>
+                    </div>
+                     
                      <p className="text-sm text-foreground-secondary">
                        When would you ideally like to take the MCAT? We'll find the best dates within your preferred window.
                      </p>

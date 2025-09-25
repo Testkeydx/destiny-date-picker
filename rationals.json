@@ -1,0 +1,614 @@
+{
+    "meta": {
+      "version": "1.0",
+      "generated_for": "UPangea MCAT Astro Date Picker",
+      "interpretation_notes": "Mercury retrograde/station → logistics & clarity risk; Moon in Air (Gemini/Libra/Aquarius) → verbal agility; Moon in Earth (Taurus/Virgo/Capricorn) → steadiness/focus; Jupiter supportive tone; Saturn pressure/discipline tone. Suitability is a high-level suggestion, not a prediction."
+    },
+    "meanings": {
+      "2025": [
+        {
+          "date": "July 25, 2025",
+          "headline": "High-energy Leo vibe, but Mercury retrograde",
+          "tags": ["Moon Leo", "Mercury Rx (Leo)", "Mars Virgo", "Confidence", "Showtime"],
+          "strengths": [
+            "Moon & Sun in Leo → confidence and bold test presence",
+            "Mars in Virgo → steadier pacing and attention to detail"
+          ],
+          "cautions": [
+            "Mercury retrograde in Leo → higher chance of misreads/tech or travel hiccups",
+            "Emotional intensity can spike anxiety if overstimulated"
+          ],
+          "suitability": "Medium (best for confident, high-energy testers who can double-check logistics)",
+          "signals": { "moon_sign": "Leo", "mercury_state": "retrograde", "tone": ["confident", "dramatic"], "discipline": "moderate" }
+        },
+        {
+          "date": "August 1, 2025",
+          "headline": "Strategic intensity with First Quarter push",
+          "tags": ["Moon Scorpio (First Quarter)", "Mercury Rx", "Mars Virgo", "Deep focus"],
+          "strengths": [
+            "Scorpio Moon favors deep concentration and stamina",
+            "First Quarter momentum supports decisive action"
+          ],
+          "cautions": [
+            "Mercury retrograde → be meticulous with timing and instructions",
+            "Emotional depth can become rumination under pressure"
+          ],
+          "suitability": "Medium (good for focused grinders; bring checklists)",
+          "signals": { "moon_sign": "Scorpio", "mercury_state": "retrograde", "tone": ["intense", "probing"], "discipline": "solid" }
+        },
+        {
+          "date": "August 16, 2025",
+          "headline": "Steady Taurus Moon + Mercury direct",
+          "tags": ["Moon Taurus (Last Quarter)", "Mercury Direct", "Mars Libra", "Even-keeled"],
+          "strengths": [
+            "Taurus Moon → calm, sustained pacing for long passages",
+            "Mercury now direct → cleaner logistics and clarity"
+          ],
+          "cautions": [
+            "Last Quarter can feel lower-energy—sleep and nutrition matter",
+            "Mars in Libra may hesitate on tough choices—commit to answers"
+          ],
+          "suitability": "High for calm testers; Medium for those who need high arousal",
+          "signals": { "moon_sign": "Taurus", "mercury_state": "direct", "tone": ["grounded", "measured"], "discipline": "good" }
+        },
+        {
+          "date": "August 22, 2025",
+          "headline": "Late-Leo spark; watch ego fuel",
+          "tags": ["Moon Leo", "Mercury Leo", "Mars Libra", "Motivation boost"],
+          "strengths": [
+            "Sun/Moon/Mercury in Leo cluster → confidence, expressiveness for CARS",
+            "Cancer Jupiter backdrop softens nerves"
+          ],
+          "cautions": [
+            "Overconfidence can rush reasoning—pace the reading",
+            "Social distractions pre-test: protect your focus bubble"
+          ],
+          "suitability": "Medium–High for extroverts; Medium for others",
+          "signals": { "moon_sign": "Leo", "mercury_state": "direct", "tone": ["confident"], "discipline": "moderate" }
+        },
+        {
+          "date": "August 23, 2025",
+          "headline": "New Moon reset (Virgo Sun) → fresh focus",
+          "tags": ["New Moon day", "Moon late Leo → Virgo shift", "Mercury Leo", "Clean slate"],
+          "strengths": [
+            "New Moon energy supports fresh starts and clean mental slate",
+            "Virgo Sun favors organization and method"
+          ],
+          "cautions": [
+            "New Moon can feel low-signal/low-energy—prime with a strong warm-up",
+            "Mercury still in Leo → check for flashy but shallow first impressions"
+          ],
+          "suitability": "High for planners; Medium for those who need high buzz",
+          "signals": { "moon_sign": "Leo (transitioning)", "mercury_state": "direct", "tone": ["reset", "methodical"], "discipline": "good" }
+        },
+        {
+          "date": "September 4, 2025",
+          "headline": "Earthy calm with a disciplined undertone",
+          "tags": ["Moon Capricorn", "Mercury Virgo", "Saturn Rx (Pisces)", "Practical"],
+          "strengths": [
+            "Mercury in Virgo → crisp parsing, detail accuracy",
+            "Capricorn Moon → steady endurance and structure"
+          ],
+          "cautions": [
+            "Saturn retro at 29° Pisces can feel heavy—avoid perfection spirals",
+            "Watch rigidity—leave time to revisit flagged items"
+          ],
+          "suitability": "High for meticulous testers",
+          "signals": { "moon_sign": "Capricorn", "mercury_state": "direct", "tone": ["disciplined", "practical"], "discipline": "strong" }
+        },
+        {
+          "date": "September 5, 2025",
+          "headline": "Airy CARS boost with Virgo clarity",
+          "tags": ["Moon Aquarius", "Mercury Virgo", "Balanced"],
+          "strengths": [
+            "Aquarius Moon → perspective taking, abstraction for CARS",
+            "Mercury in Virgo → clear mechanics and error-checking"
+          ],
+          "cautions": [
+            "Detachment can reduce urgency—use timer nudges",
+            "Saturn late Pisces still adds background pressure"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Aquarius", "mercury_state": "direct", "tone": ["objective", "clear"], "discipline": "good" }
+        },
+        {
+          "date": "September 12, 2025",
+          "headline": "Grounded focus; precision over flash",
+          "tags": ["Moon Taurus", "Mercury Virgo", "Mars Libra"],
+          "strengths": [
+            "Virgo Mercury + Taurus Moon → careful comprehension, consistent pacing",
+            "Libra Mars smooths nerves under time pressure"
+          ],
+          "cautions": [
+            "Over-deliberation risk—lock answers and move",
+            "Comfort routines are key (sleep, breakfast, timing)"
+          ],
+          "suitability": "High for steady testers",
+          "signals": { "moon_sign": "Taurus", "mercury_state": "direct", "tone": ["steady", "precise"], "discipline": "strong" }
+        },
+        {
+          "date": "September 13, 2025",
+          "headline": "Quick, curious, test-savvy",
+          "tags": ["Moon Gemini", "Mercury Virgo", "Agile thinking"],
+          "strengths": [
+            "Gemini Moon → verbal agility and quick pattern recognition",
+            "Mercury in Virgo anchors accuracy"
+          ],
+          "cautions": [
+            "Mental hopping—use highlighting to keep threads straight",
+            "Late Saturn Pisces can tighten nerves—breathe between passages"
+          ],
+          "suitability": "High for CARS-leaning testers",
+          "signals": { "moon_sign": "Gemini", "mercury_state": "direct", "tone": ["curious", "nimble"], "discipline": "good" }
+        }
+      ],
+      "2026": [
+        {
+          "date": "January 9, 2026",
+          "headline": "Capricorn stack = discipline day",
+          "tags": ["Sun/Mercury/Venus/Mars in Capricorn", "Moon Virgo", "Saturn Rx Pisces"],
+          "strengths": [
+            "Strong executive function, plan-follow, and stamina",
+            "Virgo Moon supports meticulous review"
+          ],
+          "cautions": [
+            "Can feel heavy/serious—build micro-breaks",
+            "Self-criticism spike if behind schedule"
+          ],
+          "suitability": "High for structured testers",
+          "signals": { "moon_sign": "Virgo", "mercury_state": "direct", "tone": ["disciplined", "serious"], "discipline": "strong" }
+        },
+        {
+          "date": "January 10, 2026",
+          "headline": "Balanced strategy with Libra Moon",
+          "tags": ["Capricorn focus", "Moon Libra", "Even keel"],
+          "strengths": [
+            "Capricorn planets keep structure; Libra Moon eases anxiety",
+            "Good for pacing and fairness in answer changes"
+          ],
+          "cautions": [
+            "Indecision on close calls—set a one-review rule",
+            "Keep momentum early to avoid end-rush"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Libra", "mercury_state": "direct", "tone": ["balanced", "organized"], "discipline": "strong" }
+        },
+        {
+          "date": "January 15, 2026",
+          "headline": "Capricorn mastery; Saturn station flavor",
+          "tags": ["Moon Sagittarius", "Mercury Capricorn", "Saturn stationary zone"],
+          "strengths": [
+            "Methodical reasoning and endurance",
+            "Sag Moon lifts spirits, helps big-picture"
+          ],
+          "cautions": [
+            "Stationary Saturn can feel sticky—avoid over-fixating",
+            "Guard against rushing big ideas past details"
+          ],
+          "suitability": "Medium–High",
+          "signals": { "moon_sign": "Sagittarius", "mercury_state": "direct", "tone": ["methodical", "expansive"], "discipline": "good" }
+        },
+        {
+          "date": "January 23, 2026",
+          "headline": "Aquarius clarity with soft edges",
+          "tags": ["Sun/Mercury/Venus Aquarius", "Moon Pisces", "Compassion + logic"],
+          "strengths": [
+            "Abstract reasoning and pattern detection",
+            "Pisces Moon adds empathy for humanities-style passages"
+          ],
+          "cautions": [
+            "Pisces Moon can blur edges—timer discipline helps",
+            "Keep notes crisp to avoid drift"
+          ],
+          "suitability": "High for CARS-heavy prep",
+          "signals": { "moon_sign": "Pisces", "mercury_state": "direct", "tone": ["analytical", "empathetic"], "discipline": "moderate" }
+        },
+        {
+          "date": "February 13, 2026",
+          "headline": "Transitional focus (Saturn station direct)",
+          "tags": ["Sun Aquarius", "Mercury/Venus Pisces", "Moon Capricorn"],
+          "strengths": [
+            "Capricorn Moon grounds execution and timing",
+            "Aquarius Sun supports systems thinking"
+          ],
+          "cautions": [
+            "Station-direct Saturn can feel stop-start—pace warm-up",
+            "Pisces Mercury adds imagination but watch for drift"
+          ],
+          "suitability": "Medium–High",
+          "signals": { "moon_sign": "Capricorn", "mercury_state": "direct", "tone": ["structured", "imaginative"], "discipline": "good" }
+        },
+        {
+          "date": "March 7, 2026",
+          "headline": "Fluid reasoning day",
+          "tags": ["Sun/Mercury Pisces", "Moon Libra", "Venus Aries"],
+          "strengths": [
+            "Pisces Mercury aids contextual inference in CARS",
+            "Libra Moon smooths nerves and supports fairness in review"
+          ],
+          "cautions": [
+            "Too fluid → ambiguity; rely on evidence lines",
+            "Start with a written pacing plan"
+          ],
+          "suitability": "Medium–High for strong readers",
+          "signals": { "moon_sign": "Libra", "mercury_state": "direct", "tone": ["intuitive", "harmonizing"], "discipline": "moderate" }
+        },
+        {
+          "date": "March 20, 2026",
+          "headline": "Edge of equinox: motivation + motion",
+          "tags": ["Sun late Pisces", "Moon Aries", "Venus Aries"],
+          "strengths": [
+            "Aries Moon adds decisive action and momentum",
+            "Good date if you thrive on a competitive edge"
+          ],
+          "cautions": [
+            "Impulsivity risk—commit only after full read",
+            "High arousal may tire late sections—fuel up"
+          ],
+          "suitability": "Medium–High for high-energy testers",
+          "signals": { "moon_sign": "Aries", "mercury_state": "direct", "tone": ["decisive", "driven"], "discipline": "moderate" }
+        },
+        {
+          "date": "April 10, 2026",
+          "headline": "Clean Aries launch with Capricorn steadiness",
+          "tags": ["Sun/Mars Aries", "Moon Capricorn", "Mercury Pisces"],
+          "strengths": [
+            "Aries drive helps start strong",
+            "Capricorn Moon anchors pacing and endurance"
+          ],
+          "cautions": [
+            "Pisces Mercury → write down main claims to avoid drift",
+            "Temper early speed with accuracy checks"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Capricorn", "mercury_state": "direct", "tone": ["driven", "grounded"], "discipline": "strong" }
+        },
+        {
+          "date": "April 11, 2026",
+          "headline": "Objective + energetic",
+          "tags": ["Sun/Mars Aries", "Moon Aquarius", "Clear thinking"],
+          "strengths": [
+            "Aquarius Moon supports objectivity and detachment",
+            "Aries energy sustains test-long momentum"
+          ],
+          "cautions": [
+            "Impatience—use a strict mark-and-move policy",
+            "Keep transitions tidy between passages"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Aquarius", "mercury_state": "direct", "tone": ["objective", "energized"], "discipline": "good" }
+        },
+        {
+          "date": "April 24, 2026",
+          "headline": "Steady builder day",
+          "tags": ["Sun Taurus", "Moon Leo", "Venus Taurus 29°", "Mercury Aries"],
+          "strengths": [
+            "Taurus Sun → consistency; great for pacing and stamina",
+            "Leo Moon adds confidence for verbal expression"
+          ],
+          "cautions": [
+            "Mercury in Aries can jump to conclusions—slow initial read",
+            "Watch pride in changing answers"
+          ],
+          "suitability": "High for steady but confident testers",
+          "signals": { "moon_sign": "Leo", "mercury_state": "direct", "tone": ["steady", "expressive"], "discipline": "good" }
+        },
+        {
+          "date": "April 25, 2026",
+          "headline": "Warm, expressive, decisive",
+          "tags": ["Sun Taurus", "Moon Leo", "Mercury Aries", "Venus Gemini ingress"],
+          "strengths": [
+            "Leo Moon + Mercury Aries → quick decisions and bold choices",
+            "Venus in early Gemini aids verbal ease"
+          ],
+          "cautions": [
+            "Over-speed risk on tricky inference items",
+            "Schedule micro-pauses at paragraph breaks"
+          ],
+          "suitability": "Medium–High",
+          "signals": { "moon_sign": "Leo", "mercury_state": "direct", "tone": ["bold", "verbal"], "discipline": "moderate" }
+        },
+        {
+          "date": "May 2, 2026",
+          "headline": "Clear edges, good stamina",
+          "tags": ["Sun Taurus", "Moon Scorpio", "Mercury Aries 27°"],
+          "strengths": [
+            "Scorpio Moon sustains deep focus",
+            "Aries Mercury gives crisp takeaways"
+          ],
+          "cautions": [
+            "Intensity can become tunnel vision—zoom out per question",
+            "Guard emotional energy post-break"
+          ],
+          "suitability": "High for focused testers",
+          "signals": { "moon_sign": "Scorpio", "mercury_state": "direct", "tone": ["intense", "crisp"], "discipline": "good" }
+        },
+        {
+          "date": "May 8, 2026",
+          "headline": "Method + momentum",
+          "tags": ["Moon Capricorn", "Mercury Taurus", "Sun Taurus"],
+          "strengths": [
+            "Earth emphasis → stability, patience, endurance",
+            "Great for careful elimination strategies"
+          ],
+          "cautions": [
+            "May feel slow—use timed checkpoints",
+            "Loosen up on ambiguous items to avoid time sinks"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Capricorn", "mercury_state": "direct", "tone": ["methodical", "steady"], "discipline": "strong" }
+        },
+        {
+          "date": "May 9, 2026",
+          "headline": "Airy lift with grounded parsing",
+          "tags": ["Moon Aquarius", "Mercury Taurus", "Sun Taurus"],
+          "strengths": [
+            "Aquarius Moon supports big-picture synthesis",
+            "Taurus Mercury keeps parsing grounded"
+          ],
+          "cautions": [
+            "Detachment → watch engagement on dense passages",
+            "Re-read question stems that feel too easy"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Aquarius", "mercury_state": "direct", "tone": ["objective", "grounded"], "discipline": "good" }
+        },
+        {
+          "date": "May 14, 2026",
+          "headline": "Fast comprehension, steady hands",
+          "tags": ["Moon Aries", "Mercury Taurus", "Sun Taurus"],
+          "strengths": [
+            "Aries Moon → quick activation and confidence",
+            "Taurus Mercury → reduces careless errors"
+          ],
+          "cautions": [
+            "Impatience on long reads—anchor with notes",
+            "Guard against early over-speed"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Aries", "mercury_state": "direct", "tone": ["energized", "careful"], "discipline": "good" }
+        },
+        {
+          "date": "May 22, 2026",
+          "headline": "Talk it through (in your head)",
+          "tags": ["Sun Gemini", "Moon Leo", "Mercury Gemini"],
+          "strengths": [
+            "Gemini Sun + Mercury → verbal flow and flexible thinking",
+            "Leo Moon adds assertiveness to answer choices"
+          ],
+          "cautions": [
+            "Skimming risk—slow down on author tone and structure",
+            "Noise sensitivity—bring earplugs if allowed"
+          ],
+          "suitability": "High for CARS-leaning testers",
+          "signals": { "moon_sign": "Leo", "mercury_state": "direct", "tone": ["verbal", "confident"], "discipline": "moderate" }
+        },
+        {
+          "date": "May 30, 2026",
+          "headline": "Curious + composed",
+          "tags": ["Sun Gemini", "Moon Scorpio", "Mercury Gemini"],
+          "strengths": [
+            "Gemini Mercury → speed in comprehension",
+            "Scorpio Moon → depth for the trickiest inference"
+          ],
+          "cautions": [
+            "Context switching fatigue—use section boundaries wisely",
+            "Don’t over-dig where the text is thin"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Scorpio", "mercury_state": "direct", "tone": ["curious", "deep"], "discipline": "good" }
+        },
+        {
+          "date": "June 12, 2026",
+          "headline": "Supportive, nurturing pace",
+          "tags": ["Sun Gemini", "Moon Taurus", "Mercury Cancer"],
+          "strengths": [
+            "Taurus Moon → calm pacing and endurance",
+            "Cancer Mercury enhances memory for details"
+          ],
+          "cautions": [
+            "Sentiment can cloud inference—stick to text evidence",
+            "Mind energy dips after lunch window"
+          ],
+          "suitability": "High for steady testers",
+          "signals": { "moon_sign": "Taurus", "mercury_state": "direct", "tone": ["calm", "recall"], "discipline": "good" }
+        },
+        {
+          "date": "June 13, 2026",
+          "headline": "Comfort + consistency",
+          "tags": ["Moon Taurus", "Mercury Cancer", "Sun Gemini"],
+          "strengths": [
+            "Replicable pacing and emotional steadiness",
+            "Good retention across longer passages"
+          ],
+          "cautions": [
+            "Can feel slow—use checkpoints for speed",
+            "Beware over-comfort leading to under-review"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Taurus", "mercury_state": "direct", "tone": ["steady", "comfortable"], "discipline": "good" }
+        },
+        {
+          "date": "June 26, 2026",
+          "headline": "Intense but productive",
+          "tags": ["Sun Cancer", "Moon Scorpio", "Mercury Cancer"],
+          "strengths": [
+            "Strong memory and emotional attunement to passages",
+            "Scorpio Moon sustains deep work"
+          ],
+          "cautions": [
+            "Over-identification with content—stay objective",
+            "Plan decompression between sections"
+          ],
+          "suitability": "Medium–High",
+          "signals": { "moon_sign": "Scorpio", "mercury_state": "direct", "tone": ["intense", "attuned"], "discipline": "good" }
+        },
+        {
+          "date": "June 27, 2026",
+          "headline": "Expansive, big-picture thinking",
+          "tags": ["Moon Sagittarius", "Sun Cancer", "Mercury Cancer"],
+          "strengths": [
+            "Sag Moon → optimism and quicker decision cycles",
+            "Cancer Mercury → good recall of key details"
+          ],
+          "cautions": [
+            "Glossing over nuance—force a second read on tough stems",
+            "Keep answer change rules tight"
+          ],
+          "suitability": "High for confident test takers",
+          "signals": { "moon_sign": "Sagittarius", "mercury_state": "direct", "tone": ["expansive", "confident"], "discipline": "moderate" }
+        },
+        {
+          "date": "July 11, 2026",
+          "headline": "Mental lightness + nimble shifts",
+          "tags": ["Moon Gemini", "Mercury Cancer", "Sun Cancer"],
+          "strengths": [
+            "Gemini Moon helps with quick comprehension and pivots",
+            "Cancer Mercury aids retention of fine detail"
+          ],
+          "cautions": [
+            "Context switching → anchor with notes",
+            "Mind wandering risk—use mid-passage checkpoints"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Gemini", "mercury_state": "direct", "tone": ["nimble", "retentive"], "discipline": "good" }
+        },
+        {
+          "date": "July 24, 2026",
+          "headline": "Confident expression, keep receipts",
+          "tags": ["Sun Leo", "Moon Scorpio", "Mercury Cancer"],
+          "strengths": [
+            "Leo Sun adds courage and presence under pressure",
+            "Scorpio Moon supports digging into complex arguments"
+          ],
+          "cautions": [
+            "Confirmation bias—demand textual proof before locking",
+            "Protect energy from drama around you"
+          ],
+          "suitability": "Medium–High",
+          "signals": { "moon_sign": "Scorpio", "mercury_state": "direct", "tone": ["confident", "probing"], "discipline": "good" }
+        },
+        {
+          "date": "July 31, 2026",
+          "headline": "Objective with a bold edge",
+          "tags": ["Moon Aquarius", "Sun Leo", "Mercury Cancer"],
+          "strengths": [
+            "Aquarius Moon promotes distance and fairness in evaluation",
+            "Leo Sun keeps motivation high"
+          ],
+          "cautions": [
+            "Cool detachment → re-engage with author voice",
+            "Don’t overrule evidence with confidence"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Aquarius", "mercury_state": "direct", "tone": ["objective", "bold"], "discipline": "good" }
+        },
+        {
+          "date": "August 15, 2026",
+          "headline": "Analytical with social ease",
+          "tags": ["Moon Virgo", "Sun Leo", "Mercury Leo", "Venus Libra"],
+          "strengths": [
+            "Virgo Moon → tidy thinking and careful reviews",
+            "Leo Mercury helps summarize arguments cleanly"
+          ],
+          "cautions": [
+            "Self-editing paralysis—timebox reviews",
+            "Social energy the night before—guard sleep"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Virgo", "mercury_state": "direct", "tone": ["analytical", "confident"], "discipline": "strong" }
+        },
+        {
+          "date": "August 21, 2026",
+          "headline": "High-energy clarity",
+          "tags": ["Sun Leo 28°", "Moon Sagittarius", "Mercury Leo"],
+          "strengths": [
+            "Sag Moon → speed and optimism under time pressure",
+            "Leo Mercury → strong articulation and summary"
+          ],
+          "cautions": [
+            "Over-speed on tricky inference—insert deliberate slows",
+            "Excitability may spike—use breath resets"
+          ],
+          "suitability": "Medium–High",
+          "signals": { "moon_sign": "Sagittarius", "mercury_state": "direct", "tone": ["fast", "clear"], "discipline": "moderate" }
+        },
+        {
+          "date": "August 22, 2026",
+          "headline": "Decisive and upbeat",
+          "tags": ["Sun late Leo", "Moon Sagittarius", "Mercury Leo"],
+          "strengths": [
+            "Quick synthesis and confident choice-making",
+            "Good day for testers who perform better with adrenaline"
+          ],
+          "cautions": [
+            "Skips over nuance—force text-based checks",
+            "Plan water and breathing cadence"
+          ],
+          "suitability": "High for high-energy testers; Medium otherwise",
+          "signals": { "moon_sign": "Sagittarius", "mercury_state": "direct", "tone": ["decisive", "upbeat"], "discipline": "moderate" }
+        },
+        {
+          "date": "September 3, 2026",
+          "headline": "Clean Virgo cognition",
+          "tags": ["Sun Virgo", "Moon Taurus", "Mercury Virgo"],
+          "strengths": [
+            "Detail accuracy, structure, and consistent pacing",
+            "Great for careful elimination and evidence mapping"
+          ],
+          "cautions": [
+            "Perfectionism → time traps; use max 90-second rule per item",
+            "Release tension between passages"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Taurus", "mercury_state": "direct", "tone": ["precise", "steady"], "discipline": "strong" }
+        },
+        {
+          "date": "September 4, 2026",
+          "headline": "Light, curious, accurate",
+          "tags": ["Moon Gemini", "Mercury Virgo", "Sun Virgo"],
+          "strengths": [
+            "Gemini Moon lifts reading agility",
+            "Virgo Mercury anchors accuracy and structure"
+          ],
+          "cautions": [
+            "Context-hopping—annotate claims and evidence",
+            "Guard against premature answer changes"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Gemini", "mercury_state": "direct", "tone": ["curious", "accurate"], "discipline": "good" }
+        },
+        {
+          "date": "September 11, 2026",
+          "headline": "Serious study day with clean transitions",
+          "tags": ["Sun Virgo", "Moon Virgo", "Mercury Libra 0°", "Venus Scorpio 0°"],
+          "strengths": [
+            "Double Virgo → organization and disciplined pacing",
+            "Libra Mercury supports fair weighing of options"
+          ],
+          "cautions": [
+            "Self-critique loops—practice good-enough thresholds",
+            "Don’t over-index on tone words without context"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Virgo", "mercury_state": "direct", "tone": ["disciplined", "fair"], "discipline": "strong" }
+        },
+        {
+          "date": "September 12, 2026",
+          "headline": "Measured and relational",
+          "tags": ["Sun Virgo", "Moon Libra", "Mercury Libra"],
+          "strengths": [
+            "Libra Moon/Mercury aid perspective-taking and balance",
+            "Virgo Sun keeps mechanics tight"
+          ],
+          "cautions": [
+            "Avoid indecision—set a limit for revisits",
+            "Emotional pull from content—return to text"
+          ],
+          "suitability": "High",
+          "signals": { "moon_sign": "Libra", "mercury_state": "direct", "tone": ["balanced", "measured"], "discipline": "good" }
+        }
+      ]
+    }
+  }
+  
