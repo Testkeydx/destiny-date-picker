@@ -203,7 +203,7 @@ export default function Onboarding() {
                 <GradientFrame variant="surface" padding="lg">
                   <div className="flex items-center space-x-2 mb-6">
                     <Target className="h-5 w-5 text-upangea-blue" />
-                    <h2 className="text-xl font-semibold text-foreground">Score Release Goals</h2>
+                    <h2 className="text-xl font-semibold text-foreground">Test Date Preferences</h2>
                   </div>
 
                   <div className="space-y-4">
@@ -211,28 +211,28 @@ export default function Onboarding() {
                        When would you ideally like to take the MCAT? We'll find the best dates within your preferred window.
                      </p>
                      
-                      <div className="grid grid-cols-2 gap-4">
-                       <div>
-                         <Label htmlFor="releaseStart" className="text-foreground-secondary">Earliest Test Date</Label>
-                         <div className="mt-2">
-                           <DatePicker
-                             date={data.preferredTestStart}
-                             onSelect={(date) => updateData("preferredTestStart", date)}
-                             placeholder="Earliest date"
-                           />
-                         </div>
-                       </div>
-                       <div>
-                         <Label htmlFor="releaseEnd" className="text-foreground-secondary">Latest Test Date</Label>
-                         <div className="mt-2">
-                           <DatePicker
-                             date={data.preferredTestEnd}
-                             onSelect={(date) => updateData("preferredTestEnd", date)}
-                             placeholder="Latest date"
-                           />
-                         </div>
-                       </div>
-                     </div>
+                       <div className="space-y-4">
+                        <div>
+                          <Label htmlFor="releaseStart" className="text-foreground-secondary">Earliest Test Date</Label>
+                          <div className="mt-2">
+                            <DatePicker
+                              date={data.preferredTestStart}
+                              onSelect={(date) => updateData("preferredTestStart", date)}
+                              placeholder="Earliest date"
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <Label htmlFor="releaseEnd" className="text-foreground-secondary">Latest Test Date</Label>
+                          <div className="mt-2">
+                            <DatePicker
+                              date={data.preferredTestEnd}
+                              onSelect={(date) => updateData("preferredTestEnd", date)}
+                              placeholder="Latest date"
+                            />
+                          </div>
+                        </div>
+                      </div>
 
                     <div>
                       <Label htmlFor="timezone" className="text-foreground-secondary">Test Center Timezone</Label>
