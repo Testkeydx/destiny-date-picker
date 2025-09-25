@@ -64,7 +64,7 @@ export default function Landing() {
           >
             <GradientFrame variant="glass" padding="lg" className="max-w-2xl mx-auto">
               <div className="flex items-center justify-center mb-6">
-                <Globe className="h-12 w-12 text-upangea-blue" />
+                <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-12 w-12" />
               </div>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
                 Cosmic Timing Meets Medical School Goals
