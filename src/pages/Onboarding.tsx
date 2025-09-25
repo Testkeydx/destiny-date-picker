@@ -20,8 +20,8 @@ interface OnboardingData {
   country: string;
   energyPreference: number;
   riskTolerance: number;
-  scoreReleaseStart: Date | undefined;
-  scoreReleaseEnd: Date | undefined;
+  preferredTestStart: Date | undefined;
+  preferredTestEnd: Date | undefined;
   timezone: string;
 }
 
@@ -34,8 +34,8 @@ export default function Onboarding() {
     country: "",
     energyPreference: 50,
     riskTolerance: 50,
-    scoreReleaseStart: undefined,
-    scoreReleaseEnd: undefined,
+    preferredTestStart: undefined,
+    preferredTestEnd: undefined,
     timezone: "America/New_York",
   });
 
@@ -207,32 +207,32 @@ export default function Onboarding() {
                   </div>
 
                   <div className="space-y-4">
-                    <p className="text-sm text-foreground-secondary">
-                      We'll favor test dates whose score releases land inside this range.
-                    </p>
-                    
-                     <div className="grid grid-cols-2 gap-4">
-                      <div>
-                        <Label htmlFor="releaseStart" className="text-foreground-secondary">Start Date</Label>
-                        <div className="mt-2">
-                          <DatePicker
-                            date={data.scoreReleaseStart}
-                            onSelect={(date) => updateData("scoreReleaseStart", date)}
-                            placeholder="Start date"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <Label htmlFor="releaseEnd" className="text-foreground-secondary">End Date</Label>
-                        <div className="mt-2">
-                          <DatePicker
-                            date={data.scoreReleaseEnd}
-                            onSelect={(date) => updateData("scoreReleaseEnd", date)}
-                            placeholder="End date"
-                          />
-                        </div>
-                      </div>
-                    </div>
+                     <p className="text-sm text-foreground-secondary">
+                       When would you ideally like to take the MCAT? We'll find the best dates within your preferred window.
+                     </p>
+                     
+                      <div className="grid grid-cols-2 gap-4">
+                       <div>
+                         <Label htmlFor="releaseStart" className="text-foreground-secondary">Earliest Test Date</Label>
+                         <div className="mt-2">
+                           <DatePicker
+                             date={data.preferredTestStart}
+                             onSelect={(date) => updateData("preferredTestStart", date)}
+                             placeholder="Earliest date"
+                           />
+                         </div>
+                       </div>
+                       <div>
+                         <Label htmlFor="releaseEnd" className="text-foreground-secondary">Latest Test Date</Label>
+                         <div className="mt-2">
+                           <DatePicker
+                             date={data.preferredTestEnd}
+                             onSelect={(date) => updateData("preferredTestEnd", date)}
+                             placeholder="Latest date"
+                           />
+                         </div>
+                       </div>
+                     </div>
 
                     <div>
                       <Label htmlFor="timezone" className="text-foreground-secondary">Test Center Timezone</Label>
