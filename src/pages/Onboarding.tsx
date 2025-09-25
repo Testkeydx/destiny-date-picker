@@ -54,10 +54,13 @@ export default function Onboarding() {
     <div className="min-h-screen bg-gradient-hero">
       {/* Header */}
       <header className="container mx-auto px-4 py-4 md:py-6 flex justify-between items-center">
-        <div className="flex items-center space-x-2">
+        <button 
+          onClick={() => navigate("/")}
+          className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+        >
           <img src="/src/assets/upangea-logo.png" alt="UPangea Logo" className="h-5 w-5 md:h-6 md:w-6" />
           <span className="font-semibold text-sm md:text-base text-foreground">MCAT Star</span>
-        </div>
+        </button>
         <BrandBadge size="sm" variant="glass" />
       </header>
 
