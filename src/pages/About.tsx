@@ -7,7 +7,6 @@ import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useNavigate } from "react-router-dom";
-import upangeaLogo from "@/assets/upangea-logo.png";
 
 const faqs = [
   {
@@ -50,7 +49,7 @@ export default function About() {
             Back to Home
           </Button>
           <div className="flex items-center space-x-2">
-            <img src={upangeaLogo} alt="UPangea Logo" className="h-6 w-6" />
+              <img src="/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
             <span className="font-semibold text-foreground">MCAT Star</span>
           </div>
         </div>

@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { GradientFrame } from "@/components/ui/gradient-frame";
 import { BrandBadge } from "@/components/ui/brand-badge";
 import { useNavigate } from "react-router-dom";
-import upangeaLogo from "@/assets/upangea-logo.png";
 
 const features = [
   {
@@ -33,7 +32,7 @@ export default function Landing() {
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <a href="https://upangea.com" target="_blank" rel="noopener noreferrer">
-            <img src={upangeaLogo} alt="UPangea Logo" className="h-6 w-6" />
+            <img src="/upangea-logo.png" alt="UPangea Logo" className="h-6 w-6" />
           </a>
           <span className="font-semibold text-foreground">MCAT Star</span>
         </div>
@@ -66,7 +65,7 @@ export default function Landing() {
             <GradientFrame variant="glass" padding="lg" className="max-w-2xl mx-auto">
               <div className="flex items-center justify-center mb-6">
                 <a href="https://upangea.com" target="_blank" rel="noopener noreferrer">
-                  <img src={upangeaLogo} alt="UPangea Logo" className="h-12 w-12" />
+                  <img src="/upangea-logo.png" alt="UPangea Logo" className="h-12 w-12" />
                 </a>
               </div>
               <h2 className="text-2xl font-semibold text-foreground mb-4">
